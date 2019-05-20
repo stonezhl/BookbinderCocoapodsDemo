@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Bookbinder
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let bookbinder = Bookbinder()
+        print(bookbinder.configuration.rootURL)
     }
 
 

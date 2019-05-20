@@ -1,0 +1,24 @@
+PODS:
+  - Bookbinder (1.0.0):
+    - Kanna (~> 5.0.0)
+    - ZIPFoundation (~> 0.9)
+  - Kanna (5.0.0)
+  - ZIPFoundation (0.9.9)
+
+DEPENDENCIES:
+  - Bookbinder (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bookbinder
+    - Kanna
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  Bookbinder: 0df740c2aa2343838353a6348d517e0e531d9358
+  Kanna: a32875df62975f8f4b871e933b4ea1a5c3b8be0f
+  ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
+
+PODFILE CHECKSUM: 4dc0943fba97b931e4ab801d26eedbdff5ffdd11
+
+COCOAPODS: 1.6.1

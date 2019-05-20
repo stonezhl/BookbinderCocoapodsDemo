@@ -1,0 +1,6 @@
+framework module Pods_BookbinderCocoapodsDemo {
+  umbrella header "Pods-BookbinderCocoapodsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
