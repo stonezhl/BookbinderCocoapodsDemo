@@ -7,399 +7,399 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A15DD43DA1AF016209B4BB4CE67157 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42155B043D64C18066B0BC28E5247E72 /* Entry.swift */; };
-		0E139828DC31D156FB31283EE60D6E46 /* OPFPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F303367DA0022480B70D62704683A /* OPFPackage.swift */; };
-		0FC3CCC3277C4878BE9128497158712C /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AEE9B73FCAB4DDCD97F2786786D167 /* ZIPFoundation.framework */; };
-		237BD8C14727D50400D35A755724396D /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE3008CBF2A4F448160FBC0B50ECF8 /* Kanna.swift */; };
-		26D6C27061C6C0210DC50055002E7405 /* XParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466E8EF1B3F56DEC4D9ACB764E9CFE99 /* XParser.swift */; };
-		338C77737C03B4E14BB4A9A7E50D01E6 /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 260FABF3B2EC8363E951947FF25605DE /* Kanna-dummy.m */; };
-		33C5C9C1673512AF4C789C21BA4AC3D7 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F37C13127C7FE8CE9F294BD9E00890 /* libxmlHTMLDocument.swift */; };
-		3EA9A4C2008B772EA62C75DE3B470D48 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958C390C3C1D7524ED9E1E37A20C578 /* Data+Serialization.swift */; };
-		449483B15F76335EB1063A861474CE28 /* Pods-BookbinderCocoapodsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A4FF707F62F7EE955598817A84CD13 /* Pods-BookbinderCocoapodsDemo-dummy.m */; };
-		53D09FA3C24BBF03C31CA5528907E689 /* Pods-BookbinderCocoapodsDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F628766F4BBD198137E36163B376B43D /* Pods-BookbinderCocoapodsDemoTests-dummy.m */; };
-		54FBA1CFB96D716CC9B69BC8A9300410 /* OPFSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72367DF61D6A2436ACCA7701810F205 /* OPFSpine.swift */; };
-		56FAEF6375BFBC30B590E820B0B756C5 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B35507540781CEA74230AD409EA07C8 /* Deprecated.swift */; };
-		58032CB643292A18B3CD0939EF540FB9 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E01C3C3AE1B445C5A0CDEB133310762 /* libxmlParserOption.swift */; };
-		5DA7AC1BE2215DF92EF717FD951CC6BD /* ContainerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC97EE56B745A46C9A467F6C5F19FC4 /* ContainerDocument.swift */; };
-		66711B85C762E4767C9DAB826C0885C6 /* Bookbinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F772D43390B9CB9F4EEB397D217F5 /* Bookbinder.swift */; };
-		678FD9EC9468C165D3BFF1CFCFC5BB23 /* OPFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1310306459DD476321592C307ECA313A /* OPFDocument.swift */; };
-		700FD05316616F3F3FCC68DC0D8EBBB6 /* BookbinderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5148617A99231B2F115C346D2CBDC8 /* BookbinderConfiguration.swift */; };
-		78054EE617B59B77B121242AC19306CB /* Bookbinder.h in Headers */ = {isa = PBXBuildFile; fileRef = AE37AE6C92B1C6C7C87576181F7CE71B /* Bookbinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		851EC2463D41F20DE8EDCA4026D31893 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = AF87309F32745B294AC507F61E1D96DD /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		870D98A535BCAFB995C9B5EA45F7FE00 /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70036AE8AEEE456C823899D409B4D23A /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		871EF0B8B9E4B1B11456B9981AC204B0 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4C27D19C722D2C045CB961601DDF3E /* Data+Compression.swift */; };
-		87D0F38BA76DABC247B7BB78A8FF0292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C628B482F38BCC01697CCD7725B16 /* Foundation.framework */; };
-		880BED42365D3AB168EDBA7F65D3962A /* Pods-BookbinderCocoapodsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF43A0CC1C942746D7BB212A252E5D0E /* Pods-BookbinderCocoapodsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89F741A0C19F2626A0A4C282A818BC78 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2C8ABED66B99506D8578B7AE3129D /* CSS.swift */; };
-		960919E53A7CE95054BB2E5CC1B8B1A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C628B482F38BCC01697CCD7725B16 /* Foundation.framework */; };
-		B333EF7D0C21AAE785C2504B49D9F575 /* OPFManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2A30CFB6BE3436C7C40DF7DB6DC56B /* OPFManifest.swift */; };
-		B33AC540C21F46F3AC6B500AC26ABF8B /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2312C6236368AAC0680DEBAA24DACF50 /* libxmlHTMLNode.swift */; };
-		BC58CF6FA79260F50C7A0601DC80B6B2 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD29BCA683E578DF6DA3F2E5BA23716D /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C18997F179F043408CB8F3E096D17FAF /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41989B5FAE4605200AD3DC5BF51DFC04 /* FileManager+ZIP.swift */; };
-		C7655A9289992AD99C6A18E32C3407B9 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82D05EDEBF8B9C9FF19B506AA3069BB /* Archive.swift */; };
-		CB1AF624791783F2CDD83640583EC8CD /* EPUBBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEDC99224597B9DC70F3E84A5791C /* EPUBBook.swift */; };
-		CC2E44EF73AF388564E499739C2F1AEE /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F36AF16C211DE5C0ABD4732FACE580C6 /* ZIPFoundation-dummy.m */; };
-		CC44DA1B114648E6B8C3D7953E7753E7 /* OPFMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD677F073FCD42AF72C44767EB85FE /* OPFMetadata.swift */; };
-		CDA36660314FD7F995E5A67283431810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C628B482F38BCC01697CCD7725B16 /* Foundation.framework */; };
-		CE392A33ABDCCF26471224955243C3C6 /* NCXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B7D5DD33C0831EA9B473F58452F14 /* NCXDocument.swift */; };
-		D513254ED0663C3508B4475CFD796081 /* Bookbinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA286213CFB90B1CCA7684B2D3E2CEB0 /* Bookbinder-dummy.m */; };
-		D5A0A2DEEE0171E5DA752E89EF985C75 /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 682D3033E1236F51EF47884603F13E5E /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D90367888775D3F5CD8063A1AE777EEB /* Bookbinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA446C37D6FC86C0BF85376CC0802F3 /* Bookbinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E200BACA1633B4BE11BC33805B734451 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6CAB48F5AC8DE775C8C72383A3DADD /* Archive+Reading.swift */; };
-		E760A4D85C68D9643C1686B41A43AC7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C628B482F38BCC01697CCD7725B16 /* Foundation.framework */; };
-		F75E281812313BBF167E5BF709F99177 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09392FC2A9ED5203BE6044C8732AD054 /* Archive+Writing.swift */; };
-		FB3CD1BB5CA6F3AC682799A09021BFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962C628B482F38BCC01697CCD7725B16 /* Foundation.framework */; };
-		FE532056A92431E78274E117CA111F25 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C9F1ECD3669A9D3626DF0534B05906 /* Kanna.framework */; };
+		0699A8B5FF3FABEF1960EDA1E678B317 /* Bookbinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F7768F47E7200E7E307D4B5563651 /* Bookbinder-dummy.m */; };
+		10A555F0FF73CBD91BBAA07A81F10136 /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5509F81FD4C10FA977D2A75FDBCF2 /* Kanna-dummy.m */; };
+		17CB8F8BE40C5842EB3DD25F2052D025 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02183146E19981B131180900FCB6A8F4 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1925E1322F23769C2E0A263E67F4CAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		1EF98BCB2A51DBC3F3415CBEC809D143 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC41A665D7B0A2C51D38061A2AF91DF /* FileManager+ZIP.swift */; };
+		205B0A737254AA12E836E595E86533C9 /* NCXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209840975EF2C89F4D63299AF8F08E95 /* NCXDocument.swift */; };
+		24ED088B000FB61800F848E0FBFE40DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		255CBDE83003C7930DEBF64D6F9C550E /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6A47AEC3B19848BF0A52A1B8066F9 /* Archive+Reading.swift */; };
+		2E3464BAEEB74A33CBA49305F22EF063 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794B4931310549350F760AEAEA024ED9 /* Kanna.framework */; };
+		2F6C35DBDE5D8EF72685CF75A622D88B /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B3702FBE3E794B1FF165D8EDBEA32 /* libxmlHTMLNode.swift */; };
+		32B6E9BB3C88D47F029287F81A359CAB /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA852F488F2E9946AFAA2ED8009B93CC /* Entry.swift */; };
+		33594B227A87CF5556D0508C57CC5DA1 /* OPFSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E752CA2BCF8E89BAF6E8273DB24458C /* OPFSpine.swift */; };
+		347D9D3CABF9AADC52B6006A8EDC3BF2 /* OPFPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2455C9CDDDB89E64F9A10B8CF66AC467 /* OPFPackage.swift */; };
+		34E8154192CA761831BA32DDF66252CF /* OPFManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70383E6ED4D42E0F490A70CCDA74C94 /* OPFManifest.swift */; };
+		4338C1EC406658CB7A66609505A1F72F /* OPFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5139EF6ABC4EE615B75BA2FD683342 /* OPFDocument.swift */; };
+		435141A753900ACB94F0267C127D1FF5 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664886B726BEFAF7B436C75843B4BE17 /* ZIPFoundation.framework */; };
+		4A12231A452F2CD1AA8BD1F285898C79 /* Pods-BookbinderCocoapodsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E63C3FC6F891F6C8DD2B446DBC43DE /* Pods-BookbinderCocoapodsDemo-dummy.m */; };
+		505BE824D7911046A79E3A8D27D14A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		50DBE0AA15F21C4EF7411EADA93BBD9A /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EBF4AE79C53C2783EC3BEE7BADD8CE /* libxmlParserOption.swift */; };
+		51E940FD1176FE9793CFF45EE07CFEB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		5B509B908E87A394AB8F0A6D8D2223D2 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3F0C452861C56D5E2CB045DFD42BFB /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C9293F66A486D47719EA531A6D54ED3 /* ContainerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F846563067AD127B19482BEE185B59E /* ContainerDocument.swift */; };
+		5DD40069F679A38173F3AF861C4C7303 /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEC7A0025A9C88D9BFC334898F643B8 /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696A25E10291C010A641EBF3B5905AD7 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4ADC6BAD8CB0636B2A3FC8C327C4ED /* Archive+Writing.swift */; };
+		745D1CE91883C1B2157F0F7CB72841FE /* EPUBBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD80C3CF1D2943BF9496353E148BCDA /* EPUBBook.swift */; };
+		7F029E9ABFAAC9E8E586258705EBE947 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1AA991BAB78136E3A793C4BE5D7EB /* CSS.swift */; };
+		805F4FB8393C27DAF64CFB25850926EA /* OPFMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A07FA247AAD5606D12DE0E900E59592 /* OPFMetadata.swift */; };
+		8205ECB885B706285C3110D8BE018FD1 /* Bookbinder.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C085FA54DEE7E5D5D7D94A24283E07 /* Bookbinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B0DFEDD8120FE9241F911C3987EF05 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A080D70253503B06C71D2D3F43AAB /* Data+Compression.swift */; };
+		929284B09E39872A750D74F2E183483D /* Bookbinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234CFC1DA156677730450D949C532EFA /* Bookbinder.swift */; };
+		99EE63E3F2F7A4E079967596AEFF00D7 /* XParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA097BD3FFCFF5A806DE84EA6A1F7E2D /* XParser.swift */; };
+		AA104B0D0024D7866A588FA98387576A /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D0ADA2F04FEC4C5578D8DAA31CD94 /* libxmlHTMLDocument.swift */; };
+		AADD629994032D21586208570D0B74B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		AFBF8393747E81BE2DEF62942EB02746 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2580B9FACAED26F742FCEB4A112F0 /* Data+Serialization.swift */; };
+		B277B445AA2BBCE70EB59B1184424A72 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FEDDD3068279A814612099CE37AFF2 /* Deprecated.swift */; };
+		B4325AADC8F121043CAF787ECE113730 /* Pods-BookbinderCocoapodsDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951C4946558990D918B520FD481667D4 /* Pods-BookbinderCocoapodsDemoTests-dummy.m */; };
+		C4E7087A0A99395598B00576849BDDC5 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67354C421760F6BAF162278AF91781 /* Kanna.swift */; };
+		D0094C4AC0E2F3F7D5646BE84928A8F7 /* BookbinderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F34F611EA56A7D42072B3BC31B9A59C /* BookbinderConfiguration.swift */; };
+		E504E5607B5A5F8FAC40D6CD1252C34F /* Bookbinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6295620B037A2923233800AECA56D812 /* Bookbinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED0B3CC70C87E05DD489E236AE3A401E /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D660717592C85F3A319225A5CC8ECBB1 /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F08469395817AD7E33D5E201D4C99014 /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DF73729CBE80370552E7EAA1B9CE42 /* ZIPFoundation-dummy.m */; };
+		F314798DC86D9B7840CAB6C53796EB9D /* Pods-BookbinderCocoapodsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B252BE03EA95A5D2E54C9277426E4B44 /* Pods-BookbinderCocoapodsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FEBE8E812391C3C037174FB61E5A11 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE0CB9807085584030832F4E6BE77E /* Archive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17C0C2B5204A5DEBC373D3A5398E810E /* PBXContainerItemProxy */ = {
+		0838B3CAA14EAAC1253FBBB791A2FFE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D79D41A35BF5B3B7900B170978CFFF28;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
 			remoteInfo = ZIPFoundation;
 		};
-		2189026655C484B8E47D8196DCD606DC /* PBXContainerItemProxy */ = {
+		3777E6F571C5C418F4BF9FE87A779153 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D79D41A35BF5B3B7900B170978CFFF28;
-			remoteInfo = ZIPFoundation;
-		};
-		3E1A6A08DF676AC34E9D56E87D347A31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5A53E1626063E228329738CEE2D9ADA;
-			remoteInfo = Bookbinder;
-		};
-		4C85AD4F2FCF0E16DBF7AAF03E87845C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA830FB7BC4FFD34CE90FB3225533DAC;
-			remoteInfo = Kanna;
-		};
-		AA7F3287AE955734ED15C15C2E3D244D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA830FB7BC4FFD34CE90FB3225533DAC;
-			remoteInfo = Kanna;
-		};
-		F288ABD7F6FEAE6C8749CD2AF04404BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F046714C5FA3B092324D578BC873307E;
+			remoteGlobalIDString = 1BDE23D9E6DD641DA7A20ADDE25B5412;
 			remoteInfo = "Pods-BookbinderCocoapodsDemo";
+		};
+		669D37FF79CF70B87BF4E0DCAD102ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AC747EDE1EE56F89BBF405C1D67027;
+			remoteInfo = Kanna;
+		};
+		734E7792CECC52720DF5028C1EC4256F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		78A2CC3D192604A0B3DD55E60D54435A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93AC747EDE1EE56F89BBF405C1D67027;
+			remoteInfo = Kanna;
+		};
+		F3667479E04025CC15AEA4EFBFE4B21D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A723444E0375551B6F588991D14C19E0;
+			remoteInfo = Bookbinder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A4FF707F62F7EE955598817A84CD13 /* Pods-BookbinderCocoapodsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookbinderCocoapodsDemo-dummy.m"; sourceTree = "<group>"; };
-		0733B1266EC0479BBAB3107FBAA5DFFB /* Bookbinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-prefix.pch"; sourceTree = "<group>"; };
-		09392FC2A9ED5203BE6044C8732AD054 /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
-		0985636BC3D840AB04937D80F053CE67 /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
-		0B5AEDC99224597B9DC70F3E84A5791C /* EPUBBook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPUBBook.swift; path = Bookbinder/EPUBBook.swift; sourceTree = "<group>"; };
-		1310306459DD476321592C307ECA313A /* OPFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFDocument.swift; path = Bookbinder/Parser/OPF/OPFDocument.swift; sourceTree = "<group>"; };
-		1C8772F64839767838C99278429B1A6E /* ZIPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.xcconfig; sourceTree = "<group>"; };
-		1FFCC492747CBB7A185769E2A58623AB /* Pods-BookbinderCocoapodsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookbinderCocoapodsDemo-frameworks.sh"; sourceTree = "<group>"; };
-		2312C6236368AAC0680DEBAA24DACF50 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
-		24F37C13127C7FE8CE9F294BD9E00890 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
-		25C52BD932464A32F6A8986D21CEEC2B /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation.framework; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		260FABF3B2EC8363E951947FF25605DE /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
-		2D7EEB405C75445EB8B89DB08E72B1AA /* Bookbinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bookbinder.xcconfig; sourceTree = "<group>"; };
-		3A221734240488602EB8251E6D714121 /* Pods-BookbinderCocoapodsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		3E01C3C3AE1B445C5A0CDEB133310762 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
-		3EDDD1972B9636104F49885938C705C2 /* Pods-BookbinderCocoapodsDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemoTests-Info.plist"; sourceTree = "<group>"; };
-		404597DB7B5B85587A98A3F4A8F86FB7 /* Bookbinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bookbinder-Info.plist"; sourceTree = "<group>"; };
-		41989B5FAE4605200AD3DC5BF51DFC04 /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
-		42155B043D64C18066B0BC28E5247E72 /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
-		4343600812880F8BF403DA23ACB0B888 /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
-		466E8EF1B3F56DEC4D9ACB764E9CFE99 /* XParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XParser.swift; path = Bookbinder/Parser/XParser.swift; sourceTree = "<group>"; };
-		523F772D43390B9CB9F4EEB397D217F5 /* Bookbinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bookbinder.swift; path = Bookbinder/Bookbinder.swift; sourceTree = "<group>"; };
-		55D46D92E933A706D4CB288358F56AE7 /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
-		5958C390C3C1D7524ED9E1E37A20C578 /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
-		624FFAAB2DBB8871A5111CA4D532C861 /* Pods-BookbinderCocoapodsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemo.release.xcconfig"; sourceTree = "<group>"; };
-		632973D28F349C1F1E3B7548E73DE3A6 /* Pods-BookbinderCocoapodsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookbinderCocoapodsDemo.modulemap"; sourceTree = "<group>"; };
-		65C9F1ECD3669A9D3626DF0534B05906 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		682D3033E1236F51EF47884603F13E5E /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
-		6B35507540781CEA74230AD409EA07C8 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Kanna/Deprecated.swift; sourceTree = "<group>"; };
-		70036AE8AEEE456C823899D409B4D23A /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
-		753B7D5DD33C0831EA9B473F58452F14 /* NCXDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCXDocument.swift; path = Bookbinder/Parser/NCXDocument.swift; sourceTree = "<group>"; };
-		7D2EBA62CB6CBBB7D522926FBBF372B7 /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kanna.modulemap; sourceTree = "<group>"; };
-		84A92E5C7098F4A9321C81332CA83612 /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
-		8815BF3B2E1CEFCA762D4BE8E1692F3F /* Pods-BookbinderCocoapodsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B1F303367DA0022480B70D62704683A /* OPFPackage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFPackage.swift; path = Bookbinder/Parser/OPF/OPFPackage.swift; sourceTree = "<group>"; };
-		9260447E9D8DE5F66B9CAD079C7DA7A0 /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		962C628B482F38BCC01697CCD7725B16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9A8F77B6ABB3A5C6C6C88B11A0E368AC /* Pods-BookbinderCocoapodsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookbinderCocoapodsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02183146E19981B131180900FCB6A8F4 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookbinderCocoapodsDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		0924D8A09ED3F7BA42060760615AA2EF /* Pods-BookbinderCocoapodsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemo-Info.plist"; sourceTree = "<group>"; };
+		1A7ECCD59FB61251127798E4CF94D61D /* Bookbinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bookbinder-Info.plist"; sourceTree = "<group>"; };
+		1B4ADC6BAD8CB0636B2A3FC8C327C4ED /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
+		1C168E359CFA662E88A8BE476178C587 /* Pods-BookbinderCocoapodsDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemoTests-Info.plist"; sourceTree = "<group>"; };
+		1C7F096A73769DF0A191EF3D90285DB2 /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
+		1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bookbinder.xcconfig; sourceTree = "<group>"; };
+		1EF1AA991BAB78136E3A793C4BE5D7EB /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
+		209840975EF2C89F4D63299AF8F08E95 /* NCXDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCXDocument.swift; path = Bookbinder/Parser/NCXDocument.swift; sourceTree = "<group>"; };
+		234CFC1DA156677730450D949C532EFA /* Bookbinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bookbinder.swift; path = Bookbinder/Bookbinder.swift; sourceTree = "<group>"; };
+		2455C9CDDDB89E64F9A10B8CF66AC467 /* OPFPackage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFPackage.swift; path = Bookbinder/Parser/OPF/OPFPackage.swift; sourceTree = "<group>"; };
+		27AE8C197D927EFD182ED85B13651058 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C8C62B47738B0707697F7147429D7E4 /* Pods-BookbinderCocoapodsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookbinderCocoapodsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CD80C3CF1D2943BF9496353E148BCDA /* EPUBBook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPUBBook.swift; path = Bookbinder/EPUBBook.swift; sourceTree = "<group>"; };
+		2D5139EF6ABC4EE615B75BA2FD683342 /* OPFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFDocument.swift; path = Bookbinder/Parser/OPF/OPFDocument.swift; sourceTree = "<group>"; };
+		2FC41A665D7B0A2C51D38061A2AF91DF /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		377B2108CAA8F31B801C92703BBA56A0 /* Kanna-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kanna-Info.plist"; sourceTree = "<group>"; };
+		3DA5509F81FD4C10FA977D2A75FDBCF2 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
+		3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E67AF38D325EC3806E28F705AECA37 /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kanna.modulemap; sourceTree = "<group>"; };
+		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation.framework; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C67354C421760F6BAF162278AF91781 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
+		4EBE86025793F3DD30EF60994711DAF8 /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F34F611EA56A7D42072B3BC31B9A59C /* BookbinderConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BookbinderConfiguration.swift; path = Bookbinder/BookbinderConfiguration.swift; sourceTree = "<group>"; };
+		4FEF5E73A49070B7796446D3D537F36A /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
+		54A2580B9FACAED26F742FCEB4A112F0 /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
+		5E752CA2BCF8E89BAF6E8273DB24458C /* OPFSpine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFSpine.swift; path = Bookbinder/Parser/OPF/OPFSpine.swift; sourceTree = "<group>"; };
+		6295620B037A2923233800AECA56D812 /* Bookbinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-umbrella.h"; sourceTree = "<group>"; };
+		664886B726BEFAF7B436C75843B4BE17 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68106DBE25D665DAC19620B1A75D538B /* Bookbinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bookbinder.modulemap; sourceTree = "<group>"; };
+		6DEC7A0025A9C88D9BFC334898F643B8 /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		7253E6D43E3BEB829A23BF41D7B09436 /* Pods_BookbinderCocoapodsDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookbinderCocoapodsDemoTests.framework; path = "Pods-BookbinderCocoapodsDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7478B1925A63FC9FF6D8501136E5AB83 /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		794B4931310549350F760AEAEA024ED9 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F846563067AD127B19482BEE185B59E /* ContainerDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerDocument.swift; path = Bookbinder/Parser/ContainerDocument.swift; sourceTree = "<group>"; };
+		86852CBDC52E1F1293013E38D591816E /* Pods_BookbinderCocoapodsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookbinderCocoapodsDemo.framework; path = "Pods-BookbinderCocoapodsDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A07FA247AAD5606D12DE0E900E59592 /* OPFMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFMetadata.swift; path = Bookbinder/Parser/OPF/OPFMetadata.swift; sourceTree = "<group>"; };
+		951C4946558990D918B520FD481667D4 /* Pods-BookbinderCocoapodsDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookbinderCocoapodsDemoTests-dummy.m"; sourceTree = "<group>"; };
+		9A3F0C452861C56D5E2CB045DFD42BFB /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
+		9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
+		9D40F31084F1EB88A6E60CDC46E7772B /* Pods-BookbinderCocoapodsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookbinderCocoapodsDemo.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6AEE9B73FCAB4DDCD97F2786786D167 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A82D05EDEBF8B9C9FF19B506AA3069BB /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
-		AB7C8C2316E087C39952BDBAB6C33DB1 /* Pods-BookbinderCocoapodsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemo-Info.plist"; sourceTree = "<group>"; };
-		AC2A30CFB6BE3436C7C40DF7DB6DC56B /* OPFManifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFManifest.swift; path = Bookbinder/Parser/OPF/OPFManifest.swift; sourceTree = "<group>"; };
-		AD4C27D19C722D2C045CB961601DDF3E /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
-		AE37AE6C92B1C6C7C87576181F7CE71B /* Bookbinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bookbinder.h; path = Bookbinder/Bookbinder.h; sourceTree = "<group>"; };
-		AF87309F32745B294AC507F61E1D96DD /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
-		BA286213CFB90B1CCA7684B2D3E2CEB0 /* Bookbinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bookbinder-dummy.m"; sourceTree = "<group>"; };
-		BF43A0CC1C942746D7BB212A252E5D0E /* Pods-BookbinderCocoapodsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookbinderCocoapodsDemo-umbrella.h"; sourceTree = "<group>"; };
-		BF5148617A99231B2F115C346D2CBDC8 /* BookbinderConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BookbinderConfiguration.swift; path = Bookbinder/BookbinderConfiguration.swift; sourceTree = "<group>"; };
-		C550E0BD56521ED3942FE5E8AC45D29F /* Pods_BookbinderCocoapodsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookbinderCocoapodsDemo.framework; path = "Pods-BookbinderCocoapodsDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6AD677F073FCD42AF72C44767EB85FE /* OPFMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFMetadata.swift; path = Bookbinder/Parser/OPF/OPFMetadata.swift; sourceTree = "<group>"; };
-		C8FC82B1D138C78B5883221E5CA19FDA /* Bookbinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bookbinder.modulemap; sourceTree = "<group>"; };
-		CC473A59946C631E5E58D43447458111 /* Kanna-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kanna-Info.plist"; sourceTree = "<group>"; };
-		CDBB3955E1C6A887A1F1FB4D3DD9206C /* Pods_BookbinderCocoapodsDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookbinderCocoapodsDemoTests.framework; path = "Pods-BookbinderCocoapodsDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBC9A7DC58BAAE4BADC20B54CAD7D8E /* Bookbinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bookbinder.framework; path = Bookbinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6CAB48F5AC8DE775C8C72383A3DADD /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
-		DAE5E18E4E208EE164ED573958B80AD7 /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		DB9B29E8DCB1AA7C73C534FC9ADDDDFE /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4639C6FB8E44389315C2F16ED813046 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFC97EE56B745A46C9A467F6C5F19FC4 /* ContainerDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerDocument.swift; path = Bookbinder/Parser/ContainerDocument.swift; sourceTree = "<group>"; };
-		F1250824D0A1A588A143F8C939C89E64 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1AE3008CBF2A4F448160FBC0B50ECF8 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
-		F27BFB252E7CCFF7567B5D4BE583E635 /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
-		F36AF16C211DE5C0ABD4732FACE580C6 /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
-		F628766F4BBD198137E36163B376B43D /* Pods-BookbinderCocoapodsDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookbinderCocoapodsDemoTests-dummy.m"; sourceTree = "<group>"; };
-		F72367DF61D6A2436ACCA7701810F205 /* OPFSpine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFSpine.swift; path = Bookbinder/Parser/OPF/OPFSpine.swift; sourceTree = "<group>"; };
-		FAB2C8ABED66B99506D8578B7AE3129D /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
-		FB5F4308E61969CF33F548E3F78A102D /* Pods-BookbinderCocoapodsDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookbinderCocoapodsDemoTests.modulemap"; sourceTree = "<group>"; };
-		FD29BCA683E578DF6DA3F2E5BA23716D /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookbinderCocoapodsDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		FDA446C37D6FC86C0BF85376CC0802F3 /* Bookbinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-umbrella.h"; sourceTree = "<group>"; };
+		A21D0ADA2F04FEC4C5578D8DAA31CD94 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		A3CA3EF314C436D0F0C398BC86B27BD8 /* Bookbinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bookbinder.framework; path = Bookbinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D0455DE49277A5F3018F79D4E9F5EC /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA097BD3FFCFF5A806DE84EA6A1F7E2D /* XParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XParser.swift; path = Bookbinder/Parser/XParser.swift; sourceTree = "<group>"; };
+		AA852F488F2E9946AFAA2ED8009B93CC /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
+		B252BE03EA95A5D2E54C9277426E4B44 /* Pods-BookbinderCocoapodsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookbinderCocoapodsDemo-umbrella.h"; sourceTree = "<group>"; };
+		B2FEDDD3068279A814612099CE37AFF2 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Kanna/Deprecated.swift; sourceTree = "<group>"; };
+		B9E5EBD82D9A4B3AA726CABCF9BDCE8B /* Pods-BookbinderCocoapodsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C1CF841960237326F09BD041667B618C /* Pods-BookbinderCocoapodsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookbinderCocoapodsDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C6C085FA54DEE7E5D5D7D94A24283E07 /* Bookbinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bookbinder.h; path = Bookbinder/Bookbinder.h; sourceTree = "<group>"; };
+		CA60696025CABE1230891979FCA56576 /* Pods-BookbinderCocoapodsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFE0CB9807085584030832F4E6BE77E /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
+		CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.xcconfig; sourceTree = "<group>"; };
+		D2EBF4AE79C53C2783EC3BEE7BADD8CE /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
+		D660717592C85F3A319225A5CC8ECBB1 /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
+		DEB6A47AEC3B19848BF0A52A1B8066F9 /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
+		DF1A080D70253503B06C71D2D3F43AAB /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
+		DF47A2D30652141F596E9E830AC274F4 /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		E19C9F75AFCF85AC8BA8AEAA36061F52 /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
+		E1E63C3FC6F891F6C8DD2B446DBC43DE /* Pods-BookbinderCocoapodsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookbinderCocoapodsDemo-dummy.m"; sourceTree = "<group>"; };
+		E20B3702FBE3E794B1FF165D8EDBEA32 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		E3D8D70606723FD6BCC772F977EECBB9 /* Bookbinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-prefix.pch"; sourceTree = "<group>"; };
+		E5DF73729CBE80370552E7EAA1B9CE42 /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
+		E70383E6ED4D42E0F490A70CCDA74C94 /* OPFManifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFManifest.swift; path = Bookbinder/Parser/OPF/OPFManifest.swift; sourceTree = "<group>"; };
+		EF0F7768F47E7200E7E307D4B5563651 /* Bookbinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bookbinder-dummy.m"; sourceTree = "<group>"; };
+		F715050C71B18F4D6DA906D251BEA333 /* Pods-BookbinderCocoapodsDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookbinderCocoapodsDemoTests.modulemap"; sourceTree = "<group>"; };
+		F83B92E858BE74540059FBFC3164D4BC /* Pods-BookbinderCocoapodsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1754CA4BBC8F4B09D7588BEEAC1CAFF2 /* Frameworks */ = {
+		2FA6C8F7F39624248ED9385ECB1C7AA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB3CD1BB5CA6F3AC682799A09021BFD7 /* Foundation.framework in Frameworks */,
+				51E940FD1176FE9793CFF45EE07CFEB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4867E4CE0CD6CB07A6DEBF657BE45080 /* Frameworks */ = {
+		9811F28200B0E8534F0A5DD36A93B345 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D0F38BA76DABC247B7BB78A8FF0292 /* Foundation.framework in Frameworks */,
+				24ED088B000FB61800F848E0FBFE40DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98BD8B36FB64513A549196C7779CBE7A /* Frameworks */ = {
+		B47AAA1D223EC2FC880CB3FB9C66E120 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA36660314FD7F995E5A67283431810 /* Foundation.framework in Frameworks */,
-				FE532056A92431E78274E117CA111F25 /* Kanna.framework in Frameworks */,
-				0FC3CCC3277C4878BE9128497158712C /* ZIPFoundation.framework in Frameworks */,
+				AADD629994032D21586208570D0B74B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5DC3335125D3FB5D78398B9B9CCA155 /* Frameworks */ = {
+		BC8C4CF413F05E77EC0C7FAE76D850E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E760A4D85C68D9643C1686B41A43AC7A /* Foundation.framework in Frameworks */,
+				1925E1322F23769C2E0A263E67F4CAC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7267F65B44DE28567C3023B1DE6998C /* Frameworks */ = {
+		F68BA47D6CB5577E504F46BB811108C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				960919E53A7CE95054BB2E5CC1B8B1A5 /* Foundation.framework in Frameworks */,
+				505BE824D7911046A79E3A8D27D14A10 /* Foundation.framework in Frameworks */,
+				2E3464BAEEB74A33CBA49305F22EF063 /* Kanna.framework in Frameworks */,
+				435141A753900ACB94F0267C127D1FF5 /* ZIPFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EDE32FD177421929732AFB6A65A3469 /* Support Files */ = {
+		33ADE5F2357CEDAD96BC5C8C0EF1BC80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D2EBA62CB6CBBB7D522926FBBF372B7 /* Kanna.modulemap */,
-				0985636BC3D840AB04937D80F053CE67 /* Kanna.xcconfig */,
-				260FABF3B2EC8363E951947FF25605DE /* Kanna-dummy.m */,
-				CC473A59946C631E5E58D43447458111 /* Kanna-Info.plist */,
-				4343600812880F8BF403DA23ACB0B888 /* Kanna-prefix.pch */,
-				682D3033E1236F51EF47884603F13E5E /* Kanna-umbrella.h */,
+				794B4931310549350F760AEAEA024ED9 /* Kanna.framework */,
+				664886B726BEFAF7B436C75843B4BE17 /* ZIPFoundation.framework */,
+				40B80B29D22D442EAF33990EE13F8C82 /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Kanna";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		17298FB6583DF8F9BFAAEADD5A5BDDF6 /* Pods-BookbinderCocoapodsDemo */ = {
+		39907BE243C0F4F8F6838165945D7C2E /* Pods-BookbinderCocoapodsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				632973D28F349C1F1E3B7548E73DE3A6 /* Pods-BookbinderCocoapodsDemo.modulemap */,
-				9A8F77B6ABB3A5C6C6C88B11A0E368AC /* Pods-BookbinderCocoapodsDemo-acknowledgements.markdown */,
-				8815BF3B2E1CEFCA762D4BE8E1692F3F /* Pods-BookbinderCocoapodsDemo-acknowledgements.plist */,
-				02A4FF707F62F7EE955598817A84CD13 /* Pods-BookbinderCocoapodsDemo-dummy.m */,
-				1FFCC492747CBB7A185769E2A58623AB /* Pods-BookbinderCocoapodsDemo-frameworks.sh */,
-				AB7C8C2316E087C39952BDBAB6C33DB1 /* Pods-BookbinderCocoapodsDemo-Info.plist */,
-				BF43A0CC1C942746D7BB212A252E5D0E /* Pods-BookbinderCocoapodsDemo-umbrella.h */,
-				3A221734240488602EB8251E6D714121 /* Pods-BookbinderCocoapodsDemo.debug.xcconfig */,
-				624FFAAB2DBB8871A5111CA4D532C861 /* Pods-BookbinderCocoapodsDemo.release.xcconfig */,
+				9D40F31084F1EB88A6E60CDC46E7772B /* Pods-BookbinderCocoapodsDemo.modulemap */,
+				2C8C62B47738B0707697F7147429D7E4 /* Pods-BookbinderCocoapodsDemo-acknowledgements.markdown */,
+				F83B92E858BE74540059FBFC3164D4BC /* Pods-BookbinderCocoapodsDemo-acknowledgements.plist */,
+				E1E63C3FC6F891F6C8DD2B446DBC43DE /* Pods-BookbinderCocoapodsDemo-dummy.m */,
+				C1CF841960237326F09BD041667B618C /* Pods-BookbinderCocoapodsDemo-frameworks.sh */,
+				0924D8A09ED3F7BA42060760615AA2EF /* Pods-BookbinderCocoapodsDemo-Info.plist */,
+				B252BE03EA95A5D2E54C9277426E4B44 /* Pods-BookbinderCocoapodsDemo-umbrella.h */,
+				CA60696025CABE1230891979FCA56576 /* Pods-BookbinderCocoapodsDemo.debug.xcconfig */,
+				B9E5EBD82D9A4B3AA726CABCF9BDCE8B /* Pods-BookbinderCocoapodsDemo.release.xcconfig */,
 			);
 			name = "Pods-BookbinderCocoapodsDemo";
 			path = "Target Support Files/Pods-BookbinderCocoapodsDemo";
 			sourceTree = "<group>";
 		};
-		2241D2A70D4F6428C5AD98FF6D3925FC /* Support Files */ = {
+		40B80B29D22D442EAF33990EE13F8C82 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F27BFB252E7CCFF7567B5D4BE583E635 /* ZIPFoundation.modulemap */,
-				1C8772F64839767838C99278429B1A6E /* ZIPFoundation.xcconfig */,
-				F36AF16C211DE5C0ABD4732FACE580C6 /* ZIPFoundation-dummy.m */,
-				55D46D92E933A706D4CB288358F56AE7 /* ZIPFoundation-Info.plist */,
-				84A92E5C7098F4A9321C81332CA83612 /* ZIPFoundation-prefix.pch */,
-				70036AE8AEEE456C823899D409B4D23A /* ZIPFoundation-umbrella.h */,
+				8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/ZIPFoundation";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		2FE3934CD4D3D84A96ADBC4D8811D565 /* ZIPFoundation */ = {
+		47FC364F96EDD2DAF82BDFDAF731CD59 /* Pods-BookbinderCocoapodsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				A82D05EDEBF8B9C9FF19B506AA3069BB /* Archive.swift */,
-				DA6CAB48F5AC8DE775C8C72383A3DADD /* Archive+Reading.swift */,
-				09392FC2A9ED5203BE6044C8732AD054 /* Archive+Writing.swift */,
-				AD4C27D19C722D2C045CB961601DDF3E /* Data+Compression.swift */,
-				5958C390C3C1D7524ED9E1E37A20C578 /* Data+Serialization.swift */,
-				42155B043D64C18066B0BC28E5247E72 /* Entry.swift */,
-				41989B5FAE4605200AD3DC5BF51DFC04 /* FileManager+ZIP.swift */,
-				2241D2A70D4F6428C5AD98FF6D3925FC /* Support Files */,
-			);
-			name = ZIPFoundation;
-			path = ZIPFoundation;
-			sourceTree = "<group>";
-		};
-		32AB918D06430E646D214D3735862B1B /* Pods-BookbinderCocoapodsDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				FB5F4308E61969CF33F548E3F78A102D /* Pods-BookbinderCocoapodsDemoTests.modulemap */,
-				9260447E9D8DE5F66B9CAD079C7DA7A0 /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown */,
-				DB9B29E8DCB1AA7C73C534FC9ADDDDFE /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist */,
-				F628766F4BBD198137E36163B376B43D /* Pods-BookbinderCocoapodsDemoTests-dummy.m */,
-				3EDDD1972B9636104F49885938C705C2 /* Pods-BookbinderCocoapodsDemoTests-Info.plist */,
-				FD29BCA683E578DF6DA3F2E5BA23716D /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */,
-				E4639C6FB8E44389315C2F16ED813046 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */,
-				DAE5E18E4E208EE164ED573958B80AD7 /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */,
+				F715050C71B18F4D6DA906D251BEA333 /* Pods-BookbinderCocoapodsDemoTests.modulemap */,
+				7478B1925A63FC9FF6D8501136E5AB83 /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown */,
+				A6D0455DE49277A5F3018F79D4E9F5EC /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist */,
+				951C4946558990D918B520FD481667D4 /* Pods-BookbinderCocoapodsDemoTests-dummy.m */,
+				1C168E359CFA662E88A8BE476178C587 /* Pods-BookbinderCocoapodsDemoTests-Info.plist */,
+				02183146E19981B131180900FCB6A8F4 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */,
+				27AE8C197D927EFD182ED85B13651058 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */,
+				4EBE86025793F3DD30EF60994711DAF8 /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */,
 			);
 			name = "Pods-BookbinderCocoapodsDemoTests";
 			path = "Target Support Files/Pods-BookbinderCocoapodsDemoTests";
 			sourceTree = "<group>";
 		};
-		3BA7619A69CF6E228BB7F4DC2C59F073 /* Kanna */ = {
+		4DE69EDA9AA401A5FBAB5890AB4D232D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAB2C8ABED66B99506D8578B7AE3129D /* CSS.swift */,
-				6B35507540781CEA74230AD409EA07C8 /* Deprecated.swift */,
-				AF87309F32745B294AC507F61E1D96DD /* Kanna.h */,
-				F1AE3008CBF2A4F448160FBC0B50ECF8 /* Kanna.swift */,
-				24F37C13127C7FE8CE9F294BD9E00890 /* libxmlHTMLDocument.swift */,
-				2312C6236368AAC0680DEBAA24DACF50 /* libxmlHTMLNode.swift */,
-				3E01C3C3AE1B445C5A0CDEB133310762 /* libxmlParserOption.swift */,
-				0EDE32FD177421929732AFB6A65A3469 /* Support Files */,
+				E19C9F75AFCF85AC8BA8AEAA36061F52 /* ZIPFoundation.modulemap */,
+				CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */,
+				E5DF73729CBE80370552E7EAA1B9CE42 /* ZIPFoundation-dummy.m */,
+				4FEF5E73A49070B7796446D3D537F36A /* ZIPFoundation-Info.plist */,
+				DF47A2D30652141F596E9E830AC274F4 /* ZIPFoundation-prefix.pch */,
+				6DEC7A0025A9C88D9BFC334898F643B8 /* ZIPFoundation-umbrella.h */,
 			);
-			name = Kanna;
-			path = Kanna;
+			name = "Support Files";
+			path = "../Target Support Files/ZIPFoundation";
+			sourceTree = "<group>";
+		};
+		50F55B94F1320EA04B465B86AEC6E7FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA3EF314C436D0F0C398BC86B27BD8 /* Bookbinder.framework */,
+				3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */,
+				86852CBDC52E1F1293013E38D591816E /* Pods_BookbinderCocoapodsDemo.framework */,
+				7253E6D43E3BEB829A23BF41D7B09436 /* Pods_BookbinderCocoapodsDemoTests.framework */,
+				48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55699B6B97A0599AD0B710D0D9CDEA4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68106DBE25D665DAC19620B1A75D538B /* Bookbinder.modulemap */,
+				1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */,
+				EF0F7768F47E7200E7E307D4B5563651 /* Bookbinder-dummy.m */,
+				1A7ECCD59FB61251127798E4CF94D61D /* Bookbinder-Info.plist */,
+				E3D8D70606723FD6BCC772F977EECBB9 /* Bookbinder-prefix.pch */,
+				6295620B037A2923233800AECA56D812 /* Bookbinder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bookbinder";
 			sourceTree = "<group>";
 		};
 		5BF48ECF3F15B9718C7E75F98A760229 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				17298FB6583DF8F9BFAAEADD5A5BDDF6 /* Pods-BookbinderCocoapodsDemo */,
-				32AB918D06430E646D214D3735862B1B /* Pods-BookbinderCocoapodsDemoTests */,
+				39907BE243C0F4F8F6838165945D7C2E /* Pods-BookbinderCocoapodsDemo */,
+				47FC364F96EDD2DAF82BDFDAF731CD59 /* Pods-BookbinderCocoapodsDemoTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5C116819CCD6D01D3BCE1831CB62C518 /* Products */ = {
+		83F34DE25A8546BF1BE8887C007A9EDA /* Bookbinder */ = {
 			isa = PBXGroup;
 			children = (
-				CEBC9A7DC58BAAE4BADC20B54CAD7D8E /* Bookbinder.framework */,
-				F1250824D0A1A588A143F8C939C89E64 /* Kanna.framework */,
-				C550E0BD56521ED3942FE5E8AC45D29F /* Pods_BookbinderCocoapodsDemo.framework */,
-				CDBB3955E1C6A887A1F1FB4D3DD9206C /* Pods_BookbinderCocoapodsDemoTests.framework */,
-				25C52BD932464A32F6A8986D21CEEC2B /* ZIPFoundation.framework */,
+				C6C085FA54DEE7E5D5D7D94A24283E07 /* Bookbinder.h */,
+				234CFC1DA156677730450D949C532EFA /* Bookbinder.swift */,
+				4F34F611EA56A7D42072B3BC31B9A59C /* BookbinderConfiguration.swift */,
+				7F846563067AD127B19482BEE185B59E /* ContainerDocument.swift */,
+				2CD80C3CF1D2943BF9496353E148BCDA /* EPUBBook.swift */,
+				209840975EF2C89F4D63299AF8F08E95 /* NCXDocument.swift */,
+				2D5139EF6ABC4EE615B75BA2FD683342 /* OPFDocument.swift */,
+				E70383E6ED4D42E0F490A70CCDA74C94 /* OPFManifest.swift */,
+				8A07FA247AAD5606D12DE0E900E59592 /* OPFMetadata.swift */,
+				2455C9CDDDB89E64F9A10B8CF66AC467 /* OPFPackage.swift */,
+				5E752CA2BCF8E89BAF6E8273DB24458C /* OPFSpine.swift */,
+				AA097BD3FFCFF5A806DE84EA6A1F7E2D /* XParser.swift */,
+				55699B6B97A0599AD0B710D0D9CDEA4D /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7671AEB1274A9BAF225081720A23B763 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C8FC82B1D138C78B5883221E5CA19FDA /* Bookbinder.modulemap */,
-				2D7EEB405C75445EB8B89DB08E72B1AA /* Bookbinder.xcconfig */,
-				BA286213CFB90B1CCA7684B2D3E2CEB0 /* Bookbinder-dummy.m */,
-				404597DB7B5B85587A98A3F4A8F86FB7 /* Bookbinder-Info.plist */,
-				0733B1266EC0479BBAB3107FBAA5DFFB /* Bookbinder-prefix.pch */,
-				FDA446C37D6FC86C0BF85376CC0802F3 /* Bookbinder-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Bookbinder";
+			name = Bookbinder;
+			path = Bookbinder;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D73C4FA098D6A5290256B1B4E9819360 /* Frameworks */,
+				33ADE5F2357CEDAD96BC5C8C0EF1BC80 /* Frameworks */,
 				FEA67E88AE08AF8021328F717EA67660 /* Pods */,
-				5C116819CCD6D01D3BCE1831CB62C518 /* Products */,
+				50F55B94F1320EA04B465B86AEC6E7FB /* Products */,
 				5BF48ECF3F15B9718C7E75F98A760229 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D3D6045ABEC1B56BD1F9F5B588A27764 /* Bookbinder */ = {
+		EA8963F25F6BB4E3C176169E38BD6E92 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE37AE6C92B1C6C7C87576181F7CE71B /* Bookbinder.h */,
-				523F772D43390B9CB9F4EEB397D217F5 /* Bookbinder.swift */,
-				BF5148617A99231B2F115C346D2CBDC8 /* BookbinderConfiguration.swift */,
-				EFC97EE56B745A46C9A467F6C5F19FC4 /* ContainerDocument.swift */,
-				0B5AEDC99224597B9DC70F3E84A5791C /* EPUBBook.swift */,
-				753B7D5DD33C0831EA9B473F58452F14 /* NCXDocument.swift */,
-				1310306459DD476321592C307ECA313A /* OPFDocument.swift */,
-				AC2A30CFB6BE3436C7C40DF7DB6DC56B /* OPFManifest.swift */,
-				C6AD677F073FCD42AF72C44767EB85FE /* OPFMetadata.swift */,
-				8B1F303367DA0022480B70D62704683A /* OPFPackage.swift */,
-				F72367DF61D6A2436ACCA7701810F205 /* OPFSpine.swift */,
-				466E8EF1B3F56DEC4D9ACB764E9CFE99 /* XParser.swift */,
-				7671AEB1274A9BAF225081720A23B763 /* Support Files */,
+				43E67AF38D325EC3806E28F705AECA37 /* Kanna.modulemap */,
+				9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */,
+				3DA5509F81FD4C10FA977D2A75FDBCF2 /* Kanna-dummy.m */,
+				377B2108CAA8F31B801C92703BBA56A0 /* Kanna-Info.plist */,
+				1C7F096A73769DF0A191EF3D90285DB2 /* Kanna-prefix.pch */,
+				D660717592C85F3A319225A5CC8ECBB1 /* Kanna-umbrella.h */,
 			);
-			name = Bookbinder;
-			path = Bookbinder;
+			name = "Support Files";
+			path = "../Target Support Files/Kanna";
 			sourceTree = "<group>";
 		};
-		D73C4FA098D6A5290256B1B4E9819360 /* Frameworks */ = {
+		EB4D8D399C829612658C7DA9AE6A8633 /* ZIPFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				65C9F1ECD3669A9D3626DF0534B05906 /* Kanna.framework */,
-				A6AEE9B73FCAB4DDCD97F2786786D167 /* ZIPFoundation.framework */,
-				FD4CC808CC240ABA3CC3C707286C6933 /* iOS */,
+				CAFE0CB9807085584030832F4E6BE77E /* Archive.swift */,
+				DEB6A47AEC3B19848BF0A52A1B8066F9 /* Archive+Reading.swift */,
+				1B4ADC6BAD8CB0636B2A3FC8C327C4ED /* Archive+Writing.swift */,
+				DF1A080D70253503B06C71D2D3F43AAB /* Data+Compression.swift */,
+				54A2580B9FACAED26F742FCEB4A112F0 /* Data+Serialization.swift */,
+				AA852F488F2E9946AFAA2ED8009B93CC /* Entry.swift */,
+				2FC41A665D7B0A2C51D38061A2AF91DF /* FileManager+ZIP.swift */,
+				4DE69EDA9AA401A5FBAB5890AB4D232D /* Support Files */,
 			);
-			name = Frameworks;
+			name = ZIPFoundation;
+			path = ZIPFoundation;
 			sourceTree = "<group>";
 		};
-		FD4CC808CC240ABA3CC3C707286C6933 /* iOS */ = {
+		FD5C6B683C9B191CA75D5130F5360650 /* Kanna */ = {
 			isa = PBXGroup;
 			children = (
-				962C628B482F38BCC01697CCD7725B16 /* Foundation.framework */,
+				1EF1AA991BAB78136E3A793C4BE5D7EB /* CSS.swift */,
+				B2FEDDD3068279A814612099CE37AFF2 /* Deprecated.swift */,
+				9A3F0C452861C56D5E2CB045DFD42BFB /* Kanna.h */,
+				4C67354C421760F6BAF162278AF91781 /* Kanna.swift */,
+				A21D0ADA2F04FEC4C5578D8DAA31CD94 /* libxmlHTMLDocument.swift */,
+				E20B3702FBE3E794B1FF165D8EDBEA32 /* libxmlHTMLNode.swift */,
+				D2EBF4AE79C53C2783EC3BEE7BADD8CE /* libxmlParserOption.swift */,
+				EA8963F25F6BB4E3C176169E38BD6E92 /* Support Files */,
 			);
-			name = iOS;
+			name = Kanna;
+			path = Kanna;
 			sourceTree = "<group>";
 		};
 		FEA67E88AE08AF8021328F717EA67660 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D3D6045ABEC1B56BD1F9F5B588A27764 /* Bookbinder */,
-				3BA7619A69CF6E228BB7F4DC2C59F073 /* Kanna */,
-				2FE3934CD4D3D84A96ADBC4D8811D565 /* ZIPFoundation */,
+				83F34DE25A8546BF1BE8887C007A9EDA /* Bookbinder */,
+				FD5C6B683C9B191CA75D5130F5360650 /* Kanna */,
+				EB4D8D399C829612658C7DA9AE6A8633 /* ZIPFoundation */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -407,116 +407,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0083B74D44671769BA20572CEB23E8D4 /* Headers */ = {
+		3AEEF6D334928D04E8BF211634D902B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC58CF6FA79260F50C7A0601DC80B6B2 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h in Headers */,
+				E504E5607B5A5F8FAC40D6CD1252C34F /* Bookbinder-umbrella.h in Headers */,
+				8205ECB885B706285C3110D8BE018FD1 /* Bookbinder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22A9A3B922409AD0916C8F1B5338EDC3 /* Headers */ = {
+		6AEFF118A90B0F2EB64FE5208F2CB491 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880BED42365D3AB168EDBA7F65D3962A /* Pods-BookbinderCocoapodsDemo-umbrella.h in Headers */,
+				17CB8F8BE40C5842EB3DD25F2052D025 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		255E2F590F5A462C57C46B2337D211D7 /* Headers */ = {
+		816825D60561EB22890726C129FF911B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A0A2DEEE0171E5DA752E89EF985C75 /* Kanna-umbrella.h in Headers */,
-				851EC2463D41F20DE8EDCA4026D31893 /* Kanna.h in Headers */,
+				F314798DC86D9B7840CAB6C53796EB9D /* Pods-BookbinderCocoapodsDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C02A8FB732D46ADFB158ACFFACB619A2 /* Headers */ = {
+		B385B62DD8AB1D1D8F75040C9513656D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				870D98A535BCAFB995C9B5EA45F7FE00 /* ZIPFoundation-umbrella.h in Headers */,
+				ED0B3CC70C87E05DD489E236AE3A401E /* Kanna-umbrella.h in Headers */,
+				5B509B908E87A394AB8F0A6D8D2223D2 /* Kanna.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC9446E15B59C12944C4FEC3A72699B6 /* Headers */ = {
+		EC94649CA31CE76BE63F46D89CDE1CA7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90367888775D3F5CD8063A1AE777EEB /* Bookbinder-umbrella.h in Headers */,
-				78054EE617B59B77B121242AC19306CB /* Bookbinder.h in Headers */,
+				5DD40069F679A38173F3AF861C4C7303 /* ZIPFoundation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B5A53E1626063E228329738CEE2D9ADA /* Bookbinder */ = {
+		1BDE23D9E6DD641DA7A20ADDE25B5412 /* Pods-BookbinderCocoapodsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AC7258EF2CD6E680FFEBFC901FCFB6E /* Build configuration list for PBXNativeTarget "Bookbinder" */;
+			buildConfigurationList = EF512CF86AA1F51154A438B3050F032A /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemo" */;
 			buildPhases = (
-				EC9446E15B59C12944C4FEC3A72699B6 /* Headers */,
-				6E79F3F0FC723F57616D94826DE05F83 /* Sources */,
-				98BD8B36FB64513A549196C7779CBE7A /* Frameworks */,
-				38734FCFB7536A56B58E5B41B3174A5C /* Resources */,
+				816825D60561EB22890726C129FF911B /* Headers */,
+				25563182B1B42E91176AECDC4EA7656B /* Sources */,
+				B47AAA1D223EC2FC880CB3FB9C66E120 /* Frameworks */,
+				644D5F47AE95044114150F69491DC43A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83ED617B68C49702201ADE1E67EA87F0 /* PBXTargetDependency */,
-				EA98168C3D337A57D7477BC1903818D3 /* PBXTargetDependency */,
+				DDD60E17684F0A637EF44EADCD52A02B /* PBXTargetDependency */,
+				7DA4832F59E4CA74DB28DB9219366D75 /* PBXTargetDependency */,
+				4D2119DE72348579840A50388B71275A /* PBXTargetDependency */,
 			);
-			name = Bookbinder;
-			productName = Bookbinder;
-			productReference = CEBC9A7DC58BAAE4BADC20B54CAD7D8E /* Bookbinder.framework */;
+			name = "Pods-BookbinderCocoapodsDemo";
+			productName = "Pods-BookbinderCocoapodsDemo";
+			productReference = 86852CBDC52E1F1293013E38D591816E /* Pods_BookbinderCocoapodsDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D79D41A35BF5B3B7900B170978CFFF28 /* ZIPFoundation */ = {
+		5058618D90BB515BB4E589D1C08CA74D /* Pods-BookbinderCocoapodsDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B457F9CA6923567F8E105CADC1AAFB1E /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildConfigurationList = 7290C061BD30CCA51156114259741D83 /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemoTests" */;
 			buildPhases = (
-				C02A8FB732D46ADFB158ACFFACB619A2 /* Headers */,
-				6F252A42883825209043CD8F2615DD1A /* Sources */,
-				B5DC3335125D3FB5D78398B9B9CCA155 /* Frameworks */,
-				D4044986D4C94A9FE08D0F712EFA5A35 /* Resources */,
+				6AEFF118A90B0F2EB64FE5208F2CB491 /* Headers */,
+				17DA1B0F3B16E6F1BC7CB1A7BF77865C /* Sources */,
+				9811F28200B0E8534F0A5DD36A93B345 /* Frameworks */,
+				302A265D51FEE684CF9E257D7A1CEFAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = ZIPFoundation;
-			productName = ZIPFoundation;
-			productReference = 25C52BD932464A32F6A8986D21CEEC2B /* ZIPFoundation.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E915734BECD1429190F54F90D272AC5D /* Pods-BookbinderCocoapodsDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78C5D652D923BC53DFB9A05141ECC9F6 /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemoTests" */;
-			buildPhases = (
-				0083B74D44671769BA20572CEB23E8D4 /* Headers */,
-				0C5FB40492A9C1D38F1870276B952D41 /* Sources */,
-				4867E4CE0CD6CB07A6DEBF657BE45080 /* Frameworks */,
-				5413060E6E417DF393D8CB5E79F8B1D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCC5BC8671ABEBD87FC786601E9A162A /* PBXTargetDependency */,
+				B1F3AB44E34B36BE9497A1508DCE51E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-BookbinderCocoapodsDemoTests";
 			productName = "Pods-BookbinderCocoapodsDemoTests";
-			productReference = CDBB3955E1C6A887A1F1FB4D3DD9206C /* Pods_BookbinderCocoapodsDemoTests.framework */;
+			productReference = 7253E6D43E3BEB829A23BF41D7B09436 /* Pods_BookbinderCocoapodsDemoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EA830FB7BC4FFD34CE90FB3225533DAC /* Kanna */ = {
+		93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF53A829130AE77A8A425CC61904C757 /* Build configuration list for PBXNativeTarget "Kanna" */;
+			buildConfigurationList = F0F00E9B9754DBB04BB5B42BC868430D /* Build configuration list for PBXNativeTarget "Kanna" */;
 			buildPhases = (
-				255E2F590F5A462C57C46B2337D211D7 /* Headers */,
-				AEFE166C39BE7676E7EB75BB569332E2 /* Sources */,
-				B7267F65B44DE28567C3023B1DE6998C /* Frameworks */,
-				83EC813E31FBE3B3F3D659D1DF373BA1 /* Resources */,
+				B385B62DD8AB1D1D8F75040C9513656D /* Headers */,
+				43895F44126793A3ADAC64EE08EF0C6B /* Sources */,
+				BC8C4CF413F05E77EC0C7FAE76D850E9 /* Frameworks */,
+				690EDD69506FD5D860B79495CDAE3C39 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -524,28 +507,45 @@
 			);
 			name = Kanna;
 			productName = Kanna;
-			productReference = F1250824D0A1A588A143F8C939C89E64 /* Kanna.framework */;
+			productReference = 3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F046714C5FA3B092324D578BC873307E /* Pods-BookbinderCocoapodsDemo */ = {
+		A723444E0375551B6F588991D14C19E0 /* Bookbinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A045B0C5B1553AFDA2D5B2E3BB083B7 /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemo" */;
+			buildConfigurationList = 717316F5D5C421C75187D350B998734F /* Build configuration list for PBXNativeTarget "Bookbinder" */;
 			buildPhases = (
-				22A9A3B922409AD0916C8F1B5338EDC3 /* Headers */,
-				A4FF498D6AA138D1E88123B74F7D2C00 /* Sources */,
-				1754CA4BBC8F4B09D7588BEEAC1CAFF2 /* Frameworks */,
-				B87D4AB32F9AE52EECD359B2EBC4E6DE /* Resources */,
+				3AEEF6D334928D04E8BF211634D902B1 /* Headers */,
+				3AB67CE43FE78FCCBA333BF946A2B62B /* Sources */,
+				F68BA47D6CB5577E504F46BB811108C2 /* Frameworks */,
+				6314835A41F3122E17B23309443695A4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				023C9A2D33E9786C50399DA1F5FAEDED /* PBXTargetDependency */,
-				2F85F2ECB979B127806A6ACD8611B22B /* PBXTargetDependency */,
-				A472E0B27C1CF82F22E22A3F0C414144 /* PBXTargetDependency */,
+				0F34C762C07B35D82E7D1838C2A76667 /* PBXTargetDependency */,
+				8D265F605CAA3098ED56951315ACB3F2 /* PBXTargetDependency */,
 			);
-			name = "Pods-BookbinderCocoapodsDemo";
-			productName = "Pods-BookbinderCocoapodsDemo";
-			productReference = C550E0BD56521ED3942FE5E8AC45D29F /* Pods_BookbinderCocoapodsDemo.framework */;
+			name = Bookbinder;
+			productName = Bookbinder;
+			productReference = A3CA3EF314C436D0F0C398BC86B27BD8 /* Bookbinder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4A32DE0790065AF3C68A9D7FEB3F6D /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildPhases = (
+				EC94649CA31CE76BE63F46D89CDE1CA7 /* Headers */,
+				C0F2D13C78B010A6E2AC5C7C4C1FA84A /* Sources */,
+				2FA6C8F7F39624248ED9385ECB1C7AA5 /* Frameworks */,
+				FB052E4A2EB3EE6E273C1EED335FACC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPFoundation;
+			productName = ZIPFoundation;
+			productReference = 48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -554,60 +554,60 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5C116819CCD6D01D3BCE1831CB62C518 /* Products */;
+			productRefGroup = 50F55B94F1320EA04B465B86AEC6E7FB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5A53E1626063E228329738CEE2D9ADA /* Bookbinder */,
-				EA830FB7BC4FFD34CE90FB3225533DAC /* Kanna */,
-				F046714C5FA3B092324D578BC873307E /* Pods-BookbinderCocoapodsDemo */,
-				E915734BECD1429190F54F90D272AC5D /* Pods-BookbinderCocoapodsDemoTests */,
-				D79D41A35BF5B3B7900B170978CFFF28 /* ZIPFoundation */,
+				A723444E0375551B6F588991D14C19E0 /* Bookbinder */,
+				93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */,
+				1BDE23D9E6DD641DA7A20ADDE25B5412 /* Pods-BookbinderCocoapodsDemo */,
+				5058618D90BB515BB4E589D1C08CA74D /* Pods-BookbinderCocoapodsDemoTests */,
+				AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38734FCFB7536A56B58E5B41B3174A5C /* Resources */ = {
+		302A265D51FEE684CF9E257D7A1CEFAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5413060E6E417DF393D8CB5E79F8B1D8 /* Resources */ = {
+		6314835A41F3122E17B23309443695A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83EC813E31FBE3B3F3D659D1DF373BA1 /* Resources */ = {
+		644D5F47AE95044114150F69491DC43A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B87D4AB32F9AE52EECD359B2EBC4E6DE /* Resources */ = {
+		690EDD69506FD5D860B79495CDAE3C39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4044986D4C94A9FE08D0F712EFA5A35 /* Resources */ = {
+		FB052E4A2EB3EE6E273C1EED335FACC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -617,506 +617,113 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C5FB40492A9C1D38F1870276B952D41 /* Sources */ = {
+		17DA1B0F3B16E6F1BC7CB1A7BF77865C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D09FA3C24BBF03C31CA5528907E689 /* Pods-BookbinderCocoapodsDemoTests-dummy.m in Sources */,
+				B4325AADC8F121043CAF787ECE113730 /* Pods-BookbinderCocoapodsDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E79F3F0FC723F57616D94826DE05F83 /* Sources */ = {
+		25563182B1B42E91176AECDC4EA7656B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D513254ED0663C3508B4475CFD796081 /* Bookbinder-dummy.m in Sources */,
-				66711B85C762E4767C9DAB826C0885C6 /* Bookbinder.swift in Sources */,
-				700FD05316616F3F3FCC68DC0D8EBBB6 /* BookbinderConfiguration.swift in Sources */,
-				5DA7AC1BE2215DF92EF717FD951CC6BD /* ContainerDocument.swift in Sources */,
-				CB1AF624791783F2CDD83640583EC8CD /* EPUBBook.swift in Sources */,
-				CE392A33ABDCCF26471224955243C3C6 /* NCXDocument.swift in Sources */,
-				678FD9EC9468C165D3BFF1CFCFC5BB23 /* OPFDocument.swift in Sources */,
-				B333EF7D0C21AAE785C2504B49D9F575 /* OPFManifest.swift in Sources */,
-				CC44DA1B114648E6B8C3D7953E7753E7 /* OPFMetadata.swift in Sources */,
-				0E139828DC31D156FB31283EE60D6E46 /* OPFPackage.swift in Sources */,
-				54FBA1CFB96D716CC9B69BC8A9300410 /* OPFSpine.swift in Sources */,
-				26D6C27061C6C0210DC50055002E7405 /* XParser.swift in Sources */,
+				4A12231A452F2CD1AA8BD1F285898C79 /* Pods-BookbinderCocoapodsDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F252A42883825209043CD8F2615DD1A /* Sources */ = {
+		3AB67CE43FE78FCCBA333BF946A2B62B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E200BACA1633B4BE11BC33805B734451 /* Archive+Reading.swift in Sources */,
-				F75E281812313BBF167E5BF709F99177 /* Archive+Writing.swift in Sources */,
-				C7655A9289992AD99C6A18E32C3407B9 /* Archive.swift in Sources */,
-				871EF0B8B9E4B1B11456B9981AC204B0 /* Data+Compression.swift in Sources */,
-				3EA9A4C2008B772EA62C75DE3B470D48 /* Data+Serialization.swift in Sources */,
-				06A15DD43DA1AF016209B4BB4CE67157 /* Entry.swift in Sources */,
-				C18997F179F043408CB8F3E096D17FAF /* FileManager+ZIP.swift in Sources */,
-				CC2E44EF73AF388564E499739C2F1AEE /* ZIPFoundation-dummy.m in Sources */,
+				0699A8B5FF3FABEF1960EDA1E678B317 /* Bookbinder-dummy.m in Sources */,
+				929284B09E39872A750D74F2E183483D /* Bookbinder.swift in Sources */,
+				D0094C4AC0E2F3F7D5646BE84928A8F7 /* BookbinderConfiguration.swift in Sources */,
+				5C9293F66A486D47719EA531A6D54ED3 /* ContainerDocument.swift in Sources */,
+				745D1CE91883C1B2157F0F7CB72841FE /* EPUBBook.swift in Sources */,
+				205B0A737254AA12E836E595E86533C9 /* NCXDocument.swift in Sources */,
+				4338C1EC406658CB7A66609505A1F72F /* OPFDocument.swift in Sources */,
+				34E8154192CA761831BA32DDF66252CF /* OPFManifest.swift in Sources */,
+				805F4FB8393C27DAF64CFB25850926EA /* OPFMetadata.swift in Sources */,
+				347D9D3CABF9AADC52B6006A8EDC3BF2 /* OPFPackage.swift in Sources */,
+				33594B227A87CF5556D0508C57CC5DA1 /* OPFSpine.swift in Sources */,
+				99EE63E3F2F7A4E079967596AEFF00D7 /* XParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4FF498D6AA138D1E88123B74F7D2C00 /* Sources */ = {
+		43895F44126793A3ADAC64EE08EF0C6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449483B15F76335EB1063A861474CE28 /* Pods-BookbinderCocoapodsDemo-dummy.m in Sources */,
+				7F029E9ABFAAC9E8E586258705EBE947 /* CSS.swift in Sources */,
+				B277B445AA2BBCE70EB59B1184424A72 /* Deprecated.swift in Sources */,
+				10A555F0FF73CBD91BBAA07A81F10136 /* Kanna-dummy.m in Sources */,
+				C4E7087A0A99395598B00576849BDDC5 /* Kanna.swift in Sources */,
+				AA104B0D0024D7866A588FA98387576A /* libxmlHTMLDocument.swift in Sources */,
+				2F6C35DBDE5D8EF72685CF75A622D88B /* libxmlHTMLNode.swift in Sources */,
+				50DBE0AA15F21C4EF7411EADA93BBD9A /* libxmlParserOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEFE166C39BE7676E7EB75BB569332E2 /* Sources */ = {
+		C0F2D13C78B010A6E2AC5C7C4C1FA84A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89F741A0C19F2626A0A4C282A818BC78 /* CSS.swift in Sources */,
-				56FAEF6375BFBC30B590E820B0B756C5 /* Deprecated.swift in Sources */,
-				338C77737C03B4E14BB4A9A7E50D01E6 /* Kanna-dummy.m in Sources */,
-				237BD8C14727D50400D35A755724396D /* Kanna.swift in Sources */,
-				33C5C9C1673512AF4C789C21BA4AC3D7 /* libxmlHTMLDocument.swift in Sources */,
-				B33AC540C21F46F3AC6B500AC26ABF8B /* libxmlHTMLNode.swift in Sources */,
-				58032CB643292A18B3CD0939EF540FB9 /* libxmlParserOption.swift in Sources */,
+				255CBDE83003C7930DEBF64D6F9C550E /* Archive+Reading.swift in Sources */,
+				696A25E10291C010A641EBF3B5905AD7 /* Archive+Writing.swift in Sources */,
+				F4FEBE8E812391C3C037174FB61E5A11 /* Archive.swift in Sources */,
+				84B0DFEDD8120FE9241F911C3987EF05 /* Data+Compression.swift in Sources */,
+				AFBF8393747E81BE2DEF62942EB02746 /* Data+Serialization.swift in Sources */,
+				32B6E9BB3C88D47F029287F81A359CAB /* Entry.swift in Sources */,
+				1EF98BCB2A51DBC3F3415CBEC809D143 /* FileManager+ZIP.swift in Sources */,
+				F08469395817AD7E33D5E201D4C99014 /* ZIPFoundation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		023C9A2D33E9786C50399DA1F5FAEDED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Bookbinder;
-			target = B5A53E1626063E228329738CEE2D9ADA /* Bookbinder */;
-			targetProxy = 3E1A6A08DF676AC34E9D56E87D347A31 /* PBXContainerItemProxy */;
-		};
-		2F85F2ECB979B127806A6ACD8611B22B /* PBXTargetDependency */ = {
+		0F34C762C07B35D82E7D1838C2A76667 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kanna;
-			target = EA830FB7BC4FFD34CE90FB3225533DAC /* Kanna */;
-			targetProxy = 4C85AD4F2FCF0E16DBF7AAF03E87845C /* PBXContainerItemProxy */;
+			target = 93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */;
+			targetProxy = 78A2CC3D192604A0B3DD55E60D54435A /* PBXContainerItemProxy */;
 		};
-		83ED617B68C49702201ADE1E67EA87F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kanna;
-			target = EA830FB7BC4FFD34CE90FB3225533DAC /* Kanna */;
-			targetProxy = AA7F3287AE955734ED15C15C2E3D244D /* PBXContainerItemProxy */;
-		};
-		A472E0B27C1CF82F22E22A3F0C414144 /* PBXTargetDependency */ = {
+		4D2119DE72348579840A50388B71275A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZIPFoundation;
-			target = D79D41A35BF5B3B7900B170978CFFF28 /* ZIPFoundation */;
-			targetProxy = 2189026655C484B8E47D8196DCD606DC /* PBXContainerItemProxy */;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = 0838B3CAA14EAAC1253FBBB791A2FFE6 /* PBXContainerItemProxy */;
 		};
-		DCC5BC8671ABEBD87FC786601E9A162A /* PBXTargetDependency */ = {
+		7DA4832F59E4CA74DB28DB9219366D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = 93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */;
+			targetProxy = 669D37FF79CF70B87BF4E0DCAD102ED7 /* PBXContainerItemProxy */;
+		};
+		8D265F605CAA3098ED56951315ACB3F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = 734E7792CECC52720DF5028C1EC4256F /* PBXContainerItemProxy */;
+		};
+		B1F3AB44E34B36BE9497A1508DCE51E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BookbinderCocoapodsDemo";
-			target = F046714C5FA3B092324D578BC873307E /* Pods-BookbinderCocoapodsDemo */;
-			targetProxy = F288ABD7F6FEAE6C8749CD2AF04404BB /* PBXContainerItemProxy */;
+			target = 1BDE23D9E6DD641DA7A20ADDE25B5412 /* Pods-BookbinderCocoapodsDemo */;
+			targetProxy = 3777E6F571C5C418F4BF9FE87A779153 /* PBXContainerItemProxy */;
 		};
-		EA98168C3D337A57D7477BC1903818D3 /* PBXTargetDependency */ = {
+		DDD60E17684F0A637EF44EADCD52A02B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ZIPFoundation;
-			target = D79D41A35BF5B3B7900B170978CFFF28 /* ZIPFoundation */;
-			targetProxy = 17C0C2B5204A5DEBC373D3A5398E810E /* PBXContainerItemProxy */;
+			name = Bookbinder;
+			target = A723444E0375551B6F588991D14C19E0 /* Bookbinder */;
+			targetProxy = F3667479E04025CC15AEA4EFBFE4B21D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0412FA06D27E4610C7DD9A8F87F90D89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A221734240488602EB8251E6D714121 /* Pods-BookbinderCocoapodsDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		148BF6D40313038B4DBAA0E1F9265084 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0985636BC3D840AB04937D80F053CE67 /* Kanna.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
-				PRODUCT_MODULE_NAME = Kanna;
-				PRODUCT_NAME = Kanna;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6E99E639A806DC14D8BF96F285296F9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D7EEB405C75445EB8B89DB08E72B1AA /* Bookbinder.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Bookbinder/Bookbinder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Bookbinder/Bookbinder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Bookbinder/Bookbinder.modulemap";
-				PRODUCT_MODULE_NAME = Bookbinder;
-				PRODUCT_NAME = Bookbinder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		759AF11985A8E2E72932B59200239481 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D7EEB405C75445EB8B89DB08E72B1AA /* Bookbinder.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Bookbinder/Bookbinder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Bookbinder/Bookbinder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Bookbinder/Bookbinder.modulemap";
-				PRODUCT_MODULE_NAME = Bookbinder;
-				PRODUCT_NAME = Bookbinder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		91A9325FCDA01B8DE137F62915A4193C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0985636BC3D840AB04937D80F053CE67 /* Kanna.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
-				PRODUCT_MODULE_NAME = Kanna;
-				PRODUCT_NAME = Kanna;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		97FF41810B77B594B9A492F27493F828 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C8772F64839767838C99278429B1A6E /* ZIPFoundation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
-				PRODUCT_MODULE_NAME = ZIPFoundation;
-				PRODUCT_NAME = ZIPFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B271E00CABFA71E495F21AD1C4D2E57C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 624FFAAB2DBB8871A5111CA4D532C861 /* Pods-BookbinderCocoapodsDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B6BBAAEE4642489F7ACBC3E043421335 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAE5E18E4E208EE164ED573958B80AD7 /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CA824A78E684E511FFF86FA0ACF97EF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4639C6FB8E44389315C2F16ED813046 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1175,14 +782,181 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D92C0BCD533D3CF3298567BB95A93D63 /* Release */ = {
+		204C92F9C382EFE5551AA061C9D85654 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C8772F64839767838C99278429B1A6E /* ZIPFoundation.xcconfig */;
+			baseConfigurationReference = 1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bookbinder/Bookbinder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bookbinder/Bookbinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Bookbinder/Bookbinder.modulemap";
+				PRODUCT_MODULE_NAME = Bookbinder;
+				PRODUCT_NAME = Bookbinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35E13CB12D3D8C83C879F7B3AF69EDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				PRODUCT_MODULE_NAME = Kanna;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3EC666D96042A80C08E8E09D0CF4B996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				PRODUCT_MODULE_NAME = Kanna;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		453C4ABD35678F212E3784863E1A04C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1216,59 +990,285 @@
 			};
 			name = Release;
 		};
+		6E75975C54802699B388EB6132D506D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBE86025793F3DD30EF60994711DAF8 /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EAF9EE5E7FBE32D6D868B2ECF75B529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27AE8C197D927EFD182ED85B13651058 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemoTests/Pods-BookbinderCocoapodsDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D52615BE3B532659173EA0472EDA7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FF22BE9D5568E40FDC4D692DB6C7B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bookbinder/Bookbinder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bookbinder/Bookbinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Bookbinder/Bookbinder.modulemap";
+				PRODUCT_MODULE_NAME = Bookbinder;
+				PRODUCT_NAME = Bookbinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C0F96AF44F83786C4DEAC69013C9DC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E5EBD82D9A4B3AA726CABCF9BDCE8B /* Pods-BookbinderCocoapodsDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCCDCD39C59AB064654C696D7F5E3993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA60696025CABE1230891979FCA56576 /* Pods-BookbinderCocoapodsDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A045B0C5B1553AFDA2D5B2E3BB083B7 /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0412FA06D27E4610C7DD9A8F87F90D89 /* Debug */,
-				B271E00CABFA71E495F21AD1C4D2E57C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
-				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AC7258EF2CD6E680FFEBFC901FCFB6E /* Build configuration list for PBXNativeTarget "Bookbinder" */ = {
+		717316F5D5C421C75187D350B998734F /* Build configuration list for PBXNativeTarget "Bookbinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				759AF11985A8E2E72932B59200239481 /* Debug */,
-				6E99E639A806DC14D8BF96F285296F9B /* Release */,
+				204C92F9C382EFE5551AA061C9D85654 /* Debug */,
+				8FF22BE9D5568E40FDC4D692DB6C7B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78C5D652D923BC53DFB9A05141ECC9F6 /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemoTests" */ = {
+		7290C061BD30CCA51156114259741D83 /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA824A78E684E511FFF86FA0ACF97EF8 /* Debug */,
-				B6BBAAEE4642489F7ACBC3E043421335 /* Release */,
+				7EAF9EE5E7FBE32D6D868B2ECF75B529 /* Debug */,
+				6E75975C54802699B388EB6132D506D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF53A829130AE77A8A425CC61904C757 /* Build configuration list for PBXNativeTarget "Kanna" */ = {
+		DB4A32DE0790065AF3C68A9D7FEB3F6D /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				148BF6D40313038B4DBAA0E1F9265084 /* Debug */,
-				91A9325FCDA01B8DE137F62915A4193C /* Release */,
+				8D52615BE3B532659173EA0472EDA7CC /* Debug */,
+				453C4ABD35678F212E3784863E1A04C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B457F9CA6923567F8E105CADC1AAFB1E /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
+		EF512CF86AA1F51154A438B3050F032A /* Build configuration list for PBXNativeTarget "Pods-BookbinderCocoapodsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97FF41810B77B594B9A492F27493F828 /* Debug */,
-				D92C0BCD533D3CF3298567BB95A93D63 /* Release */,
+				CCCDCD39C59AB064654C696D7F5E3993 /* Debug */,
+				C0F96AF44F83786C4DEAC69013C9DC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F00E9B9754DBB04BB5B42BC868430D /* Build configuration list for PBXNativeTarget "Kanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E13CB12D3D8C83C879F7B3AF69EDDC /* Debug */,
+				3EC666D96042A80C08E8E09D0CF4B996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

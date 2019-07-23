@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-BookbinderCocoapodsDemo/Pods-BookbinderCocoapodsDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Bookbinder/Bookbinder.framework
+${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework
+${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework
