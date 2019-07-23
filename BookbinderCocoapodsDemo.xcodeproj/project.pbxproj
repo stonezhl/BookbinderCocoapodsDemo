@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251FD22622E75FB30015C9CA /* epub in Resources */ = {isa = PBXBuildFile; fileRef = 251FD22522E75FB30015C9CA /* epub */; };
 		25728E7E229187B400DAC525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25728E7D229187B400DAC525 /* AppDelegate.swift */; };
 		25728E80229187B400DAC525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25728E7F229187B400DAC525 /* ViewController.swift */; };
 		25728E83229187B400DAC525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25728E81229187B400DAC525 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		099EB434BFA8E68F5A22ED5C /* Pods_BookbinderCocoapodsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookbinderCocoapodsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251FD22522E75FB30015C9CA /* epub */ = {isa = PBXFileReference; lastKnownFileType = folder; path = epub; sourceTree = "<group>"; };
 		25728E7A229187B400DAC525 /* BookbinderCocoapodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookbinderCocoapodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25728E7D229187B400DAC525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25728E7F229187B400DAC525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		25728E7C229187B400DAC525 /* BookbinderCocoapodsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				251FD22522E75FB30015C9CA /* epub */,
 				25728E7D229187B400DAC525 /* AppDelegate.swift */,
 				25728E7F229187B400DAC525 /* ViewController.swift */,
 				25728E81229187B400DAC525 /* Main.storyboard */,
@@ -125,7 +128,6 @@
 				7DDA79FB6869527AB7A08D20 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */,
 				67DFA35229C2C61FDC688C6B /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251FD22622E75FB30015C9CA /* epub in Resources */,
 				25728E88229187B500DAC525 /* LaunchScreen.storyboard in Resources */,
 				25728E85229187B500DAC525 /* Assets.xcassets in Resources */,
 				25728E83229187B400DAC525 /* Main.storyboard in Resources */,
