@@ -1,5 +1,5 @@
 PODS:
-  - Bookbinder (1.0.1):
+  - Bookbinder (1.0.2):
     - Kanna (~> 5.0.0)
     - ZIPFoundation (~> 0.9)
   - Kanna (5.0.0)
@@ -15,7 +15,7 @@ SPEC REPOS:
     - ZIPFoundation
 
 SPEC CHECKSUMS:
-  Bookbinder: 9a485b18b720feb817ba1c7b7d0843efa174b48c
+  Bookbinder: abbe67a89106784336a4b66473f6f1a837728b38
   Kanna: a32875df62975f8f4b871e933b4ea1a5c3b8be0f
   ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
 
