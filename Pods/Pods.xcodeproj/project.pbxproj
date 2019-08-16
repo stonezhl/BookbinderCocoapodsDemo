@@ -7,53 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0699A8B5FF3FABEF1960EDA1E678B317 /* Bookbinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0F7768F47E7200E7E307D4B5563651 /* Bookbinder-dummy.m */; };
-		10A555F0FF73CBD91BBAA07A81F10136 /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA5509F81FD4C10FA977D2A75FDBCF2 /* Kanna-dummy.m */; };
+		0127F74379413C8335DB5ED58FDA7209 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8A0E1B1B7DF23BEEEA3080A0F88CF /* FileManager+ZIP.swift */; };
+		05C96663580B9DEC73E76CFE8CF941BC /* Bookbinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DDF83F00B247130DD255B408A1A926 /* Bookbinder-dummy.m */; };
+		06C24A8B191AB96C1C0830AE92F672D0 /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 680577383425CEC91581CC83C2854904 /* ZIPFoundation-dummy.m */; };
+		1086C6F6487110046CC38303521C41D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		169C18E2E407EFFDE5FA5D8EE1800327 /* OPFSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD22264CFC1D450C82D4688E4EF1310E /* OPFSpine.swift */; };
 		17CB8F8BE40C5842EB3DD25F2052D025 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02183146E19981B131180900FCB6A8F4 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1925E1322F23769C2E0A263E67F4CAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
-		1EF98BCB2A51DBC3F3415CBEC809D143 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC41A665D7B0A2C51D38061A2AF91DF /* FileManager+ZIP.swift */; };
-		205B0A737254AA12E836E595E86533C9 /* NCXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209840975EF2C89F4D63299AF8F08E95 /* NCXDocument.swift */; };
+		1D46A13BA7C0CBDCDD5881FB15D2F284 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794B4931310549350F760AEAEA024ED9 /* Kanna.framework */; };
+		1ED43FE1FA26387E6555E80032C9CED0 /* OPFManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A422796D73F083A1E6CDDD9654D09AA /* OPFManifest.swift */; };
+		1F22F711745E5F5C70D077F2B0E389F7 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98687FD993B19819EE05B69E5B68FB81 /* Kanna.swift */; };
 		24ED088B000FB61800F848E0FBFE40DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
-		255CBDE83003C7930DEBF64D6F9C550E /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6A47AEC3B19848BF0A52A1B8066F9 /* Archive+Reading.swift */; };
-		2E3464BAEEB74A33CBA49305F22EF063 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794B4931310549350F760AEAEA024ED9 /* Kanna.framework */; };
-		2F6C35DBDE5D8EF72685CF75A622D88B /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20B3702FBE3E794B1FF165D8EDBEA32 /* libxmlHTMLNode.swift */; };
-		32B6E9BB3C88D47F029287F81A359CAB /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA852F488F2E9946AFAA2ED8009B93CC /* Entry.swift */; };
-		33594B227A87CF5556D0508C57CC5DA1 /* OPFSpine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E752CA2BCF8E89BAF6E8273DB24458C /* OPFSpine.swift */; };
-		347D9D3CABF9AADC52B6006A8EDC3BF2 /* OPFPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2455C9CDDDB89E64F9A10B8CF66AC467 /* OPFPackage.swift */; };
-		34E8154192CA761831BA32DDF66252CF /* OPFManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70383E6ED4D42E0F490A70CCDA74C94 /* OPFManifest.swift */; };
-		4338C1EC406658CB7A66609505A1F72F /* OPFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5139EF6ABC4EE615B75BA2FD683342 /* OPFDocument.swift */; };
-		435141A753900ACB94F0267C127D1FF5 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664886B726BEFAF7B436C75843B4BE17 /* ZIPFoundation.framework */; };
+		3110DB85B81A0B0931C172C0D84E5952 /* OPFMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83CDD3160E916C7CA1B0B6A849DDD21 /* OPFMetadata.swift */; };
+		36A3E06DFD62E2E182902EECD77301F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		3793E6A6A144B5691529297EDED0D1DB /* OPFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC45CC5C3E4339F5A806C1C182B832B /* OPFDocument.swift */; };
+		3A6D2BFD67B23CC0A59FFA81651B8D22 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333DBBEFC5E77E43CA89CAA3AE122B72 /* Deprecated.swift */; };
+		470026082D6C88C9A03084BEE5453FCD /* Bookbinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2927FECCDB1DAFF14D612B4CEE29EE /* Bookbinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481F185484FF1323B53BE7660E3DCB8A /* ContainerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F5FB7E16263180779AC39CF54A91A /* ContainerDocument.swift */; };
 		4A12231A452F2CD1AA8BD1F285898C79 /* Pods-BookbinderCocoapodsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E63C3FC6F891F6C8DD2B446DBC43DE /* Pods-BookbinderCocoapodsDemo-dummy.m */; };
-		505BE824D7911046A79E3A8D27D14A10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
-		50DBE0AA15F21C4EF7411EADA93BBD9A /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EBF4AE79C53C2783EC3BEE7BADD8CE /* libxmlParserOption.swift */; };
-		51E940FD1176FE9793CFF45EE07CFEB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
-		5B509B908E87A394AB8F0A6D8D2223D2 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3F0C452861C56D5E2CB045DFD42BFB /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C9293F66A486D47719EA531A6D54ED3 /* ContainerDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F846563067AD127B19482BEE185B59E /* ContainerDocument.swift */; };
-		5DD40069F679A38173F3AF861C4C7303 /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEC7A0025A9C88D9BFC334898F643B8 /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		696A25E10291C010A641EBF3B5905AD7 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4ADC6BAD8CB0636B2A3FC8C327C4ED /* Archive+Writing.swift */; };
-		745D1CE91883C1B2157F0F7CB72841FE /* EPUBBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD80C3CF1D2943BF9496353E148BCDA /* EPUBBook.swift */; };
-		7F029E9ABFAAC9E8E586258705EBE947 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1AA991BAB78136E3A793C4BE5D7EB /* CSS.swift */; };
-		805F4FB8393C27DAF64CFB25850926EA /* OPFMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A07FA247AAD5606D12DE0E900E59592 /* OPFMetadata.swift */; };
-		8205ECB885B706285C3110D8BE018FD1 /* Bookbinder.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C085FA54DEE7E5D5D7D94A24283E07 /* Bookbinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84B0DFEDD8120FE9241F911C3987EF05 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A080D70253503B06C71D2D3F43AAB /* Data+Compression.swift */; };
-		929284B09E39872A750D74F2E183483D /* Bookbinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234CFC1DA156677730450D949C532EFA /* Bookbinder.swift */; };
-		99EE63E3F2F7A4E079967596AEFF00D7 /* XParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA097BD3FFCFF5A806DE84EA6A1F7E2D /* XParser.swift */; };
-		AA104B0D0024D7866A588FA98387576A /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D0ADA2F04FEC4C5578D8DAA31CD94 /* libxmlHTMLDocument.swift */; };
+		57607BC240F98172C92C4833166825B8 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64588841BA238EE29307376FEBB941B8 /* Data+Compression.swift */; };
+		5BAE024F9C996AB6B5A460936282B61E /* EPUBBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B41282378AA18959D3AD591D5E94FC3 /* EPUBBook.swift */; };
+		5F031787135EA03B64D7C011198663A4 /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = BD61E199ED941BD3A2094F93CBAED93C /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AAA500924B50FFD3D98659A4B090DE6 /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCC0D1A80BEA395A25532B5D6C0C37A /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF6C87958C4D126053279A94D99EB8F /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F554140ED7C55DD6376C305E5708FEC /* libxmlHTMLNode.swift */; };
+		7ED481E871E1BF557C8D1E011E11EDBC /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E6E8384CA6D87DD9EFCCACAF24EC6 /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC1249DAD2E95DFD0C26F542F4DF8D0 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE1C9A788EB11F5C71A8A2ED3DCA7B /* Entry.swift */; };
+		8316FF935B7BE7A8E8CF27B16CA86C2A /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3186C536DB6CFD23BA8CB461626A08 /* Archive.swift */; };
+		8AE9222EF9754D3B7F651328FA66C63F /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199FCCE503FB1674B818D3D12BDBE45F /* Data+Serialization.swift */; };
+		8BBE73F33660C32F497938FA8739D51A /* NCXDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7133E1B8935DF0EC16EE41119C5D7F /* NCXDocument.swift */; };
+		94A91FEA7F381840680E962E0FB7B377 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760FF1C7FD26A810E2C011D8AA932D8E /* libxmlParserOption.swift */; };
+		A5F994F64946FAFFB5256416BF216D07 /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC581B5417A6A71F61BC5F4ABC8A49 /* Archive+Reading.swift */; };
 		AADD629994032D21586208570D0B74B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
-		AFBF8393747E81BE2DEF62942EB02746 /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2580B9FACAED26F742FCEB4A112F0 /* Data+Serialization.swift */; };
-		B277B445AA2BBCE70EB59B1184424A72 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FEDDD3068279A814612099CE37AFF2 /* Deprecated.swift */; };
+		AD23BEB6AFA98DB7F8CFF859F0011BB8 /* BookbinderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063AAB890E0996120F8FE684A6F1B8C7 /* BookbinderConfiguration.swift */; };
+		B16482C338B58E213DB94CD59FBB3CB4 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8874B1B8571EDAAFE770344D1F99158 /* libxmlHTMLDocument.swift */; };
 		B4325AADC8F121043CAF787ECE113730 /* Pods-BookbinderCocoapodsDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951C4946558990D918B520FD481667D4 /* Pods-BookbinderCocoapodsDemoTests-dummy.m */; };
-		C4E7087A0A99395598B00576849BDDC5 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67354C421760F6BAF162278AF91781 /* Kanna.swift */; };
-		D0094C4AC0E2F3F7D5646BE84928A8F7 /* BookbinderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F34F611EA56A7D42072B3BC31B9A59C /* BookbinderConfiguration.swift */; };
-		E504E5607B5A5F8FAC40D6CD1252C34F /* Bookbinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6295620B037A2923233800AECA56D812 /* Bookbinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED0B3CC70C87E05DD489E236AE3A401E /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D660717592C85F3A319225A5CC8ECBB1 /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F08469395817AD7E33D5E201D4C99014 /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DF73729CBE80370552E7EAA1B9CE42 /* ZIPFoundation-dummy.m */; };
+		B70FAF6BC648CF264B3B78B4B0DBD8BF /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664886B726BEFAF7B436C75843B4BE17 /* ZIPFoundation.framework */; };
+		C1FE8F34B1E2869CC3E4EF7BC64536FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */; };
+		E1CC00F53100C187D54F8417EAC5BB2D /* XParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F50631A7BE9FAEFC2A3EFB497D825B /* XParser.swift */; };
+		E877D836C88A4361272DA79A87FC392D /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ECB768B76D4D13226D2B00E96E6508 /* Kanna-dummy.m */; };
 		F314798DC86D9B7840CAB6C53796EB9D /* Pods-BookbinderCocoapodsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B252BE03EA95A5D2E54C9277426E4B44 /* Pods-BookbinderCocoapodsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4FEBE8E812391C3C037174FB61E5A11 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFE0CB9807085584030832F4E6BE77E /* Archive.swift */; };
+		F607F23FF6B325F4E9439F6371093E89 /* Bookbinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B277FB22DC3931DA7C90DD89BD40C /* Bookbinder.swift */; };
+		F87BCE49AC6951FEBB6CCC04A505E3FD /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C0128941BF335EC58ECD4E6F83521 /* Archive+Writing.swift */; };
+		FA06F0A53250944C6C2967B458089B40 /* Bookbinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB81ABF25170EDB1B8ABF5C5ABC33E8 /* Bookbinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD8E975175CC5DCD8A91601498B2CF62 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74A4D9046402FD1E525B4DA28DB3EDA /* CSS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0838B3CAA14EAAC1253FBBB791A2FFE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		283428DC92F3909FDB8B36E247EB328F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -74,14 +80,7 @@
 			remoteGlobalIDString = 93AC747EDE1EE56F89BBF405C1D67027;
 			remoteInfo = Kanna;
 		};
-		734E7792CECC52720DF5028C1EC4256F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
-			remoteInfo = ZIPFoundation;
-		};
-		78A2CC3D192604A0B3DD55E60D54435A /* PBXContainerItemProxy */ = {
+		6703877C9C11077BA3438454D273893F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -99,83 +98,90 @@
 
 /* Begin PBXFileReference section */
 		02183146E19981B131180900FCB6A8F4 /* Pods-BookbinderCocoapodsDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookbinderCocoapodsDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		03D016EAB3B37E950EA62ED2EFB41912 /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
+		063AAB890E0996120F8FE684A6F1B8C7 /* BookbinderConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BookbinderConfiguration.swift; path = Bookbinder/BookbinderConfiguration.swift; sourceTree = "<group>"; };
+		088E6E8384CA6D87DD9EFCCACAF24EC6 /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
 		0924D8A09ED3F7BA42060760615AA2EF /* Pods-BookbinderCocoapodsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemo-Info.plist"; sourceTree = "<group>"; };
-		1A7ECCD59FB61251127798E4CF94D61D /* Bookbinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bookbinder-Info.plist"; sourceTree = "<group>"; };
-		1B4ADC6BAD8CB0636B2A3FC8C327C4ED /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
+		0DCC0D1A80BEA395A25532B5D6C0C37A /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		0FB81ABF25170EDB1B8ABF5C5ABC33E8 /* Bookbinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bookbinder.h; path = Bookbinder/Bookbinder.h; sourceTree = "<group>"; };
+		143F7859B83A9557C7B7078EFB90C7CC /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
+		146839CDA7FD51D732BF0D9D05B5F735 /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		14FC581B5417A6A71F61BC5F4ABC8A49 /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
+		199FCCE503FB1674B818D3D12BDBE45F /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
 		1C168E359CFA662E88A8BE476178C587 /* Pods-BookbinderCocoapodsDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemoTests-Info.plist"; sourceTree = "<group>"; };
-		1C7F096A73769DF0A191EF3D90285DB2 /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
-		1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bookbinder.xcconfig; sourceTree = "<group>"; };
-		1EF1AA991BAB78136E3A793C4BE5D7EB /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
-		209840975EF2C89F4D63299AF8F08E95 /* NCXDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCXDocument.swift; path = Bookbinder/Parser/NCXDocument.swift; sourceTree = "<group>"; };
-		234CFC1DA156677730450D949C532EFA /* Bookbinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bookbinder.swift; path = Bookbinder/Bookbinder.swift; sourceTree = "<group>"; };
-		2455C9CDDDB89E64F9A10B8CF66AC467 /* OPFPackage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFPackage.swift; path = Bookbinder/Parser/OPF/OPFPackage.swift; sourceTree = "<group>"; };
 		27AE8C197D927EFD182ED85B13651058 /* Pods-BookbinderCocoapodsDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C8C62B47738B0707697F7147429D7E4 /* Pods-BookbinderCocoapodsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookbinderCocoapodsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CD80C3CF1D2943BF9496353E148BCDA /* EPUBBook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPUBBook.swift; path = Bookbinder/EPUBBook.swift; sourceTree = "<group>"; };
-		2D5139EF6ABC4EE615B75BA2FD683342 /* OPFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFDocument.swift; path = Bookbinder/Parser/OPF/OPFDocument.swift; sourceTree = "<group>"; };
-		2FC41A665D7B0A2C51D38061A2AF91DF /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
-		377B2108CAA8F31B801C92703BBA56A0 /* Kanna-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kanna-Info.plist"; sourceTree = "<group>"; };
-		3DA5509F81FD4C10FA977D2A75FDBCF2 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
+		333DBBEFC5E77E43CA89CAA3AE122B72 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Kanna/Deprecated.swift; sourceTree = "<group>"; };
 		3EA922F9B70178D64EE578C60F4DD23B /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E67AF38D325EC3806E28F705AECA37 /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kanna.modulemap; sourceTree = "<group>"; };
 		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation.framework; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C67354C421760F6BAF162278AF91781 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
+		4D9F5FB7E16263180779AC39CF54A91A /* ContainerDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerDocument.swift; path = Bookbinder/Parser/ContainerDocument.swift; sourceTree = "<group>"; };
 		4EBE86025793F3DD30EF60994711DAF8 /* Pods-BookbinderCocoapodsDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		4F34F611EA56A7D42072B3BC31B9A59C /* BookbinderConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BookbinderConfiguration.swift; path = Bookbinder/BookbinderConfiguration.swift; sourceTree = "<group>"; };
-		4FEF5E73A49070B7796446D3D537F36A /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
-		54A2580B9FACAED26F742FCEB4A112F0 /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
-		5E752CA2BCF8E89BAF6E8273DB24458C /* OPFSpine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFSpine.swift; path = Bookbinder/Parser/OPF/OPFSpine.swift; sourceTree = "<group>"; };
-		6295620B037A2923233800AECA56D812 /* Bookbinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-umbrella.h"; sourceTree = "<group>"; };
+		64588841BA238EE29307376FEBB941B8 /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
 		664886B726BEFAF7B436C75843B4BE17 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68106DBE25D665DAC19620B1A75D538B /* Bookbinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bookbinder.modulemap; sourceTree = "<group>"; };
-		6DEC7A0025A9C88D9BFC334898F643B8 /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		66C216A64C1EE256FC2A71CE4F27D9B9 /* Bookbinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bookbinder.modulemap; sourceTree = "<group>"; };
+		680577383425CEC91581CC83C2854904 /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
+		6A7133E1B8935DF0EC16EE41119C5D7F /* NCXDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NCXDocument.swift; path = Bookbinder/Parser/NCXDocument.swift; sourceTree = "<group>"; };
+		6B41282378AA18959D3AD591D5E94FC3 /* EPUBBook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPUBBook.swift; path = Bookbinder/EPUBBook.swift; sourceTree = "<group>"; };
+		6E786170F8699D390F80327489F76F71 /* Bookbinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bookbinder-Info.plist"; sourceTree = "<group>"; };
 		7253E6D43E3BEB829A23BF41D7B09436 /* Pods_BookbinderCocoapodsDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookbinderCocoapodsDemoTests.framework; path = "Pods-BookbinderCocoapodsDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7478B1925A63FC9FF6D8501136E5AB83 /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookbinderCocoapodsDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		760FF1C7FD26A810E2C011D8AA932D8E /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
 		794B4931310549350F760AEAEA024ED9 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F846563067AD127B19482BEE185B59E /* ContainerDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerDocument.swift; path = Bookbinder/Parser/ContainerDocument.swift; sourceTree = "<group>"; };
+		7A422796D73F083A1E6CDDD9654D09AA /* OPFManifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFManifest.swift; path = Bookbinder/Parser/OPF/OPFManifest.swift; sourceTree = "<group>"; };
+		7DDE7C875501966A207CB7FE79B81649 /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
+		828B277FB22DC3931DA7C90DD89BD40C /* Bookbinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bookbinder.swift; path = Bookbinder/Bookbinder.swift; sourceTree = "<group>"; };
 		86852CBDC52E1F1293013E38D591816E /* Pods_BookbinderCocoapodsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BookbinderCocoapodsDemo.framework; path = "Pods-BookbinderCocoapodsDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87ECB768B76D4D13226D2B00E96E6508 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
 		8941CC0D913BF2CD379FA734C90B450E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8A07FA247AAD5606D12DE0E900E59592 /* OPFMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFMetadata.swift; path = Bookbinder/Parser/OPF/OPFMetadata.swift; sourceTree = "<group>"; };
+		8F554140ED7C55DD6376C305E5708FEC /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		914FEE3612ED043366AD5B355286C273 /* Bookbinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-prefix.pch"; sourceTree = "<group>"; };
+		93DDF83F00B247130DD255B408A1A926 /* Bookbinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bookbinder-dummy.m"; sourceTree = "<group>"; };
 		951C4946558990D918B520FD481667D4 /* Pods-BookbinderCocoapodsDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookbinderCocoapodsDemoTests-dummy.m"; sourceTree = "<group>"; };
-		9A3F0C452861C56D5E2CB045DFD42BFB /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
-		9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
+		971AA84285E65D3B2BA9AAC0BDC57457 /* Kanna-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kanna-Info.plist"; sourceTree = "<group>"; };
+		98687FD993B19819EE05B69E5B68FB81 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
+		9C6C0128941BF335EC58ECD4E6F83521 /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
 		9D40F31084F1EB88A6E60CDC46E7772B /* Pods-BookbinderCocoapodsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookbinderCocoapodsDemo.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A21D0ADA2F04FEC4C5578D8DAA31CD94 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		A1E8A0E1B1B7DF23BEEEA3080A0F88CF /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
 		A3CA3EF314C436D0F0C398BC86B27BD8 /* Bookbinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bookbinder.framework; path = Bookbinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D0455DE49277A5F3018F79D4E9F5EC /* Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AA097BD3FFCFF5A806DE84EA6A1F7E2D /* XParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XParser.swift; path = Bookbinder/Parser/XParser.swift; sourceTree = "<group>"; };
-		AA852F488F2E9946AFAA2ED8009B93CC /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
+		A7E8EFDCE145349280DF8057F4A7E0CA /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kanna.modulemap; sourceTree = "<group>"; };
 		B252BE03EA95A5D2E54C9277426E4B44 /* Pods-BookbinderCocoapodsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookbinderCocoapodsDemo-umbrella.h"; sourceTree = "<group>"; };
-		B2FEDDD3068279A814612099CE37AFF2 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Kanna/Deprecated.swift; sourceTree = "<group>"; };
 		B9E5EBD82D9A4B3AA726CABCF9BDCE8B /* Pods-BookbinderCocoapodsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BD61E199ED941BD3A2094F93CBAED93C /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
+		BEC45CC5C3E4339F5A806C1C182B832B /* OPFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFDocument.swift; path = Bookbinder/Parser/OPF/OPFDocument.swift; sourceTree = "<group>"; };
+		BECE1C9A788EB11F5C71A8A2ED3DCA7B /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
 		C1CF841960237326F09BD041667B618C /* Pods-BookbinderCocoapodsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookbinderCocoapodsDemo-frameworks.sh"; sourceTree = "<group>"; };
-		C6C085FA54DEE7E5D5D7D94A24283E07 /* Bookbinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bookbinder.h; path = Bookbinder/Bookbinder.h; sourceTree = "<group>"; };
+		C4F50631A7BE9FAEFC2A3EFB497D825B /* XParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XParser.swift; path = Bookbinder/Parser/XParser.swift; sourceTree = "<group>"; };
+		C83CDD3160E916C7CA1B0B6A849DDD21 /* OPFMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFMetadata.swift; path = Bookbinder/Parser/OPF/OPFMetadata.swift; sourceTree = "<group>"; };
 		CA60696025CABE1230891979FCA56576 /* Pods-BookbinderCocoapodsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookbinderCocoapodsDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		CAFE0CB9807085584030832F4E6BE77E /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
-		CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.xcconfig; sourceTree = "<group>"; };
-		D2EBF4AE79C53C2783EC3BEE7BADD8CE /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
-		D660717592C85F3A319225A5CC8ECBB1 /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
-		DEB6A47AEC3B19848BF0A52A1B8066F9 /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
-		DF1A080D70253503B06C71D2D3F43AAB /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
-		DF47A2D30652141F596E9E830AC274F4 /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
-		E19C9F75AFCF85AC8BA8AEAA36061F52 /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
+		CD22264CFC1D450C82D4688E4EF1310E /* OPFSpine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFSpine.swift; path = Bookbinder/Parser/OPF/OPFSpine.swift; sourceTree = "<group>"; };
+		D74A4D9046402FD1E525B4DA28DB3EDA /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
+		D8874B1B8571EDAAFE770344D1F99158 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
 		E1E63C3FC6F891F6C8DD2B446DBC43DE /* Pods-BookbinderCocoapodsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookbinderCocoapodsDemo-dummy.m"; sourceTree = "<group>"; };
-		E20B3702FBE3E794B1FF165D8EDBEA32 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
-		E3D8D70606723FD6BCC772F977EECBB9 /* Bookbinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-prefix.pch"; sourceTree = "<group>"; };
-		E5DF73729CBE80370552E7EAA1B9CE42 /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
-		E70383E6ED4D42E0F490A70CCDA74C94 /* OPFManifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OPFManifest.swift; path = Bookbinder/Parser/OPF/OPFManifest.swift; sourceTree = "<group>"; };
-		EF0F7768F47E7200E7E307D4B5563651 /* Bookbinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bookbinder-dummy.m"; sourceTree = "<group>"; };
+		E9E73B5DB0150BB15546EBC1B1C62E31 /* Bookbinder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bookbinder.xcconfig; sourceTree = "<group>"; };
+		EE2927FECCDB1DAFF14D612B4CEE29EE /* Bookbinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bookbinder-umbrella.h"; sourceTree = "<group>"; };
+		F1AA57DA4E4A3603664382CDB06B7239 /* ZIPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.xcconfig; sourceTree = "<group>"; };
 		F715050C71B18F4D6DA906D251BEA333 /* Pods-BookbinderCocoapodsDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BookbinderCocoapodsDemoTests.modulemap"; sourceTree = "<group>"; };
+		F78A2F90577D5685B88CADC6F0B757EE /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
 		F83B92E858BE74540059FBFC3164D4BC /* Pods-BookbinderCocoapodsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookbinderCocoapodsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD3186C536DB6CFD23BA8CB461626A08 /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FA6C8F7F39624248ED9385ECB1C7AA5 /* Frameworks */ = {
+		01DFFF8EE524BF8E4B11AAAC53B1639A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51E940FD1176FE9793CFF45EE07CFEB9 /* Foundation.framework in Frameworks */,
+				C1FE8F34B1E2869CC3E4EF7BC64536FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADB2ECBDCB416C7B9C500D38D4A895D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A3E06DFD62E2E182902EECD77301F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,21 +201,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC8C4CF413F05E77EC0C7FAE76D850E9 /* Frameworks */ = {
+		DEDCF7F008A5B3CB0BEAEF2569BD7E96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1925E1322F23769C2E0A263E67F4CAC7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F68BA47D6CB5577E504F46BB811108C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				505BE824D7911046A79E3A8D27D14A10 /* Foundation.framework in Frameworks */,
-				2E3464BAEEB74A33CBA49305F22EF063 /* Kanna.framework in Frameworks */,
-				435141A753900ACB94F0267C127D1FF5 /* ZIPFoundation.framework in Frameworks */,
+				1086C6F6487110046CC38303521C41D2 /* Foundation.framework in Frameworks */,
+				1D46A13BA7C0CBDCDD5881FB15D2F284 /* Kanna.framework in Frameworks */,
+				B70FAF6BC648CF264B3B78B4B0DBD8BF /* ZIPFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,20 +265,6 @@
 			path = "Target Support Files/Pods-BookbinderCocoapodsDemoTests";
 			sourceTree = "<group>";
 		};
-		4DE69EDA9AA401A5FBAB5890AB4D232D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E19C9F75AFCF85AC8BA8AEAA36061F52 /* ZIPFoundation.modulemap */,
-				CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */,
-				E5DF73729CBE80370552E7EAA1B9CE42 /* ZIPFoundation-dummy.m */,
-				4FEF5E73A49070B7796446D3D537F36A /* ZIPFoundation-Info.plist */,
-				DF47A2D30652141F596E9E830AC274F4 /* ZIPFoundation-prefix.pch */,
-				6DEC7A0025A9C88D9BFC334898F643B8 /* ZIPFoundation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZIPFoundation";
-			sourceTree = "<group>";
-		};
 		50F55B94F1320EA04B465B86AEC6E7FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,18 +277,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55699B6B97A0599AD0B710D0D9CDEA4D /* Support Files */ = {
+		55E77525BE8175A22090E105B50939A3 /* Kanna */ = {
 			isa = PBXGroup;
 			children = (
-				68106DBE25D665DAC19620B1A75D538B /* Bookbinder.modulemap */,
-				1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */,
-				EF0F7768F47E7200E7E307D4B5563651 /* Bookbinder-dummy.m */,
-				1A7ECCD59FB61251127798E4CF94D61D /* Bookbinder-Info.plist */,
-				E3D8D70606723FD6BCC772F977EECBB9 /* Bookbinder-prefix.pch */,
-				6295620B037A2923233800AECA56D812 /* Bookbinder-umbrella.h */,
+				D74A4D9046402FD1E525B4DA28DB3EDA /* CSS.swift */,
+				333DBBEFC5E77E43CA89CAA3AE122B72 /* Deprecated.swift */,
+				BD61E199ED941BD3A2094F93CBAED93C /* Kanna.h */,
+				98687FD993B19819EE05B69E5B68FB81 /* Kanna.swift */,
+				D8874B1B8571EDAAFE770344D1F99158 /* libxmlHTMLDocument.swift */,
+				8F554140ED7C55DD6376C305E5708FEC /* libxmlHTMLNode.swift */,
+				760FF1C7FD26A810E2C011D8AA932D8E /* libxmlParserOption.swift */,
+				E5BAD432DE6FA307645B556E9E1D556D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Bookbinder";
+			name = Kanna;
+			path = Kanna;
 			sourceTree = "<group>";
 		};
 		5BF48ECF3F15B9718C7E75F98A760229 /* Targets Support Files */ = {
@@ -316,25 +302,44 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		83F34DE25A8546BF1BE8887C007A9EDA /* Bookbinder */ = {
+		6370A4B530ADF4B5F317139D1ABCC067 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C6C085FA54DEE7E5D5D7D94A24283E07 /* Bookbinder.h */,
-				234CFC1DA156677730450D949C532EFA /* Bookbinder.swift */,
-				4F34F611EA56A7D42072B3BC31B9A59C /* BookbinderConfiguration.swift */,
-				7F846563067AD127B19482BEE185B59E /* ContainerDocument.swift */,
-				2CD80C3CF1D2943BF9496353E148BCDA /* EPUBBook.swift */,
-				209840975EF2C89F4D63299AF8F08E95 /* NCXDocument.swift */,
-				2D5139EF6ABC4EE615B75BA2FD683342 /* OPFDocument.swift */,
-				E70383E6ED4D42E0F490A70CCDA74C94 /* OPFManifest.swift */,
-				8A07FA247AAD5606D12DE0E900E59592 /* OPFMetadata.swift */,
-				2455C9CDDDB89E64F9A10B8CF66AC467 /* OPFPackage.swift */,
-				5E752CA2BCF8E89BAF6E8273DB24458C /* OPFSpine.swift */,
-				AA097BD3FFCFF5A806DE84EA6A1F7E2D /* XParser.swift */,
-				55699B6B97A0599AD0B710D0D9CDEA4D /* Support Files */,
+				DC534D16426994BA0BC0A42E4F011A2E /* Bookbinder */,
+				55E77525BE8175A22090E105B50939A3 /* Kanna */,
+				93AAF7C24F13A82478F2C9534CD300BE /* ZIPFoundation */,
 			);
-			name = Bookbinder;
-			path = Bookbinder;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83DFC987A7F9B0B146A8E9805EA142C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DDE7C875501966A207CB7FE79B81649 /* ZIPFoundation.modulemap */,
+				F1AA57DA4E4A3603664382CDB06B7239 /* ZIPFoundation.xcconfig */,
+				680577383425CEC91581CC83C2854904 /* ZIPFoundation-dummy.m */,
+				143F7859B83A9557C7B7078EFB90C7CC /* ZIPFoundation-Info.plist */,
+				146839CDA7FD51D732BF0D9D05B5F735 /* ZIPFoundation-prefix.pch */,
+				0DCC0D1A80BEA395A25532B5D6C0C37A /* ZIPFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZIPFoundation";
+			sourceTree = "<group>";
+		};
+		93AAF7C24F13A82478F2C9534CD300BE /* ZIPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				FD3186C536DB6CFD23BA8CB461626A08 /* Archive.swift */,
+				14FC581B5417A6A71F61BC5F4ABC8A49 /* Archive+Reading.swift */,
+				9C6C0128941BF335EC58ECD4E6F83521 /* Archive+Writing.swift */,
+				64588841BA238EE29307376FEBB941B8 /* Data+Compression.swift */,
+				199FCCE503FB1674B818D3D12BDBE45F /* Data+Serialization.swift */,
+				BECE1C9A788EB11F5C71A8A2ED3DCA7B /* Entry.swift */,
+				A1E8A0E1B1B7DF23BEEEA3080A0F88CF /* FileManager+ZIP.swift */,
+				83DFC987A7F9B0B146A8E9805EA142C7 /* Support Files */,
+			);
+			name = ZIPFoundation;
+			path = ZIPFoundation;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -342,77 +347,86 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				33ADE5F2357CEDAD96BC5C8C0EF1BC80 /* Frameworks */,
-				FEA67E88AE08AF8021328F717EA67660 /* Pods */,
+				6370A4B530ADF4B5F317139D1ABCC067 /* Pods */,
 				50F55B94F1320EA04B465B86AEC6E7FB /* Products */,
 				5BF48ECF3F15B9718C7E75F98A760229 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		EA8963F25F6BB4E3C176169E38BD6E92 /* Support Files */ = {
+		DC534D16426994BA0BC0A42E4F011A2E /* Bookbinder */ = {
 			isa = PBXGroup;
 			children = (
-				43E67AF38D325EC3806E28F705AECA37 /* Kanna.modulemap */,
-				9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */,
-				3DA5509F81FD4C10FA977D2A75FDBCF2 /* Kanna-dummy.m */,
-				377B2108CAA8F31B801C92703BBA56A0 /* Kanna-Info.plist */,
-				1C7F096A73769DF0A191EF3D90285DB2 /* Kanna-prefix.pch */,
-				D660717592C85F3A319225A5CC8ECBB1 /* Kanna-umbrella.h */,
+				0FB81ABF25170EDB1B8ABF5C5ABC33E8 /* Bookbinder.h */,
+				828B277FB22DC3931DA7C90DD89BD40C /* Bookbinder.swift */,
+				063AAB890E0996120F8FE684A6F1B8C7 /* BookbinderConfiguration.swift */,
+				4D9F5FB7E16263180779AC39CF54A91A /* ContainerDocument.swift */,
+				6B41282378AA18959D3AD591D5E94FC3 /* EPUBBook.swift */,
+				6A7133E1B8935DF0EC16EE41119C5D7F /* NCXDocument.swift */,
+				BEC45CC5C3E4339F5A806C1C182B832B /* OPFDocument.swift */,
+				7A422796D73F083A1E6CDDD9654D09AA /* OPFManifest.swift */,
+				C83CDD3160E916C7CA1B0B6A849DDD21 /* OPFMetadata.swift */,
+				CD22264CFC1D450C82D4688E4EF1310E /* OPFSpine.swift */,
+				C4F50631A7BE9FAEFC2A3EFB497D825B /* XParser.swift */,
+				DDB82FFFC7D33550E51E66663B334F03 /* Support Files */,
+			);
+			name = Bookbinder;
+			path = Bookbinder;
+			sourceTree = "<group>";
+		};
+		DDB82FFFC7D33550E51E66663B334F03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66C216A64C1EE256FC2A71CE4F27D9B9 /* Bookbinder.modulemap */,
+				E9E73B5DB0150BB15546EBC1B1C62E31 /* Bookbinder.xcconfig */,
+				93DDF83F00B247130DD255B408A1A926 /* Bookbinder-dummy.m */,
+				6E786170F8699D390F80327489F76F71 /* Bookbinder-Info.plist */,
+				914FEE3612ED043366AD5B355286C273 /* Bookbinder-prefix.pch */,
+				EE2927FECCDB1DAFF14D612B4CEE29EE /* Bookbinder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bookbinder";
+			sourceTree = "<group>";
+		};
+		E5BAD432DE6FA307645B556E9E1D556D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7E8EFDCE145349280DF8057F4A7E0CA /* Kanna.modulemap */,
+				F78A2F90577D5685B88CADC6F0B757EE /* Kanna.xcconfig */,
+				87ECB768B76D4D13226D2B00E96E6508 /* Kanna-dummy.m */,
+				971AA84285E65D3B2BA9AAC0BDC57457 /* Kanna-Info.plist */,
+				03D016EAB3B37E950EA62ED2EFB41912 /* Kanna-prefix.pch */,
+				088E6E8384CA6D87DD9EFCCACAF24EC6 /* Kanna-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kanna";
 			sourceTree = "<group>";
 		};
-		EB4D8D399C829612658C7DA9AE6A8633 /* ZIPFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				CAFE0CB9807085584030832F4E6BE77E /* Archive.swift */,
-				DEB6A47AEC3B19848BF0A52A1B8066F9 /* Archive+Reading.swift */,
-				1B4ADC6BAD8CB0636B2A3FC8C327C4ED /* Archive+Writing.swift */,
-				DF1A080D70253503B06C71D2D3F43AAB /* Data+Compression.swift */,
-				54A2580B9FACAED26F742FCEB4A112F0 /* Data+Serialization.swift */,
-				AA852F488F2E9946AFAA2ED8009B93CC /* Entry.swift */,
-				2FC41A665D7B0A2C51D38061A2AF91DF /* FileManager+ZIP.swift */,
-				4DE69EDA9AA401A5FBAB5890AB4D232D /* Support Files */,
-			);
-			name = ZIPFoundation;
-			path = ZIPFoundation;
-			sourceTree = "<group>";
-		};
-		FD5C6B683C9B191CA75D5130F5360650 /* Kanna */ = {
-			isa = PBXGroup;
-			children = (
-				1EF1AA991BAB78136E3A793C4BE5D7EB /* CSS.swift */,
-				B2FEDDD3068279A814612099CE37AFF2 /* Deprecated.swift */,
-				9A3F0C452861C56D5E2CB045DFD42BFB /* Kanna.h */,
-				4C67354C421760F6BAF162278AF91781 /* Kanna.swift */,
-				A21D0ADA2F04FEC4C5578D8DAA31CD94 /* libxmlHTMLDocument.swift */,
-				E20B3702FBE3E794B1FF165D8EDBEA32 /* libxmlHTMLNode.swift */,
-				D2EBF4AE79C53C2783EC3BEE7BADD8CE /* libxmlParserOption.swift */,
-				EA8963F25F6BB4E3C176169E38BD6E92 /* Support Files */,
-			);
-			name = Kanna;
-			path = Kanna;
-			sourceTree = "<group>";
-		};
-		FEA67E88AE08AF8021328F717EA67660 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				83F34DE25A8546BF1BE8887C007A9EDA /* Bookbinder */,
-				FD5C6B683C9B191CA75D5130F5360650 /* Kanna */,
-				EB4D8D399C829612658C7DA9AE6A8633 /* ZIPFoundation */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AEEF6D334928D04E8BF211634D902B1 /* Headers */ = {
+		03765A5C9BB38D4EC6510179B89394CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E504E5607B5A5F8FAC40D6CD1252C34F /* Bookbinder-umbrella.h in Headers */,
-				8205ECB885B706285C3110D8BE018FD1 /* Bookbinder.h in Headers */,
+				6AAA500924B50FFD3D98659A4B090DE6 /* ZIPFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373EEF07F4D8BA6B0DB2F75CD1740FA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470026082D6C88C9A03084BEE5453FCD /* Bookbinder-umbrella.h in Headers */,
+				FA06F0A53250944C6C2967B458089B40 /* Bookbinder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E4A37A767CE556739A72ABFE953A07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED481E871E1BF557C8D1E011E11EDBC /* Kanna-umbrella.h in Headers */,
+				5F031787135EA03B64D7C011198663A4 /* Kanna.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,23 +443,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F314798DC86D9B7840CAB6C53796EB9D /* Pods-BookbinderCocoapodsDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B385B62DD8AB1D1D8F75040C9513656D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED0B3CC70C87E05DD489E236AE3A401E /* Kanna-umbrella.h in Headers */,
-				5B509B908E87A394AB8F0A6D8D2223D2 /* Kanna.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC94649CA31CE76BE63F46D89CDE1CA7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DD40069F679A38173F3AF861C4C7303 /* ZIPFoundation-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,12 +491,12 @@
 		};
 		93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0F00E9B9754DBB04BB5B42BC868430D /* Build configuration list for PBXNativeTarget "Kanna" */;
+			buildConfigurationList = 468C13AF6A72AAF6218590B1B80450D1 /* Build configuration list for PBXNativeTarget "Kanna" */;
 			buildPhases = (
-				B385B62DD8AB1D1D8F75040C9513656D /* Headers */,
-				43895F44126793A3ADAC64EE08EF0C6B /* Sources */,
-				BC8C4CF413F05E77EC0C7FAE76D850E9 /* Frameworks */,
-				690EDD69506FD5D860B79495CDAE3C39 /* Resources */,
+				56E4A37A767CE556739A72ABFE953A07 /* Headers */,
+				1DD001CBC9B416D7DCDF9D88E68578D8 /* Sources */,
+				4ADB2ECBDCB416C7B9C500D38D4A895D /* Frameworks */,
+				7325FE51AA582B5192B9C2603E4CA874 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -512,18 +509,18 @@
 		};
 		A723444E0375551B6F588991D14C19E0 /* Bookbinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 717316F5D5C421C75187D350B998734F /* Build configuration list for PBXNativeTarget "Bookbinder" */;
+			buildConfigurationList = 00BB7FD00F569FDD445E7AF254B7962E /* Build configuration list for PBXNativeTarget "Bookbinder" */;
 			buildPhases = (
-				3AEEF6D334928D04E8BF211634D902B1 /* Headers */,
-				3AB67CE43FE78FCCBA333BF946A2B62B /* Sources */,
-				F68BA47D6CB5577E504F46BB811108C2 /* Frameworks */,
-				6314835A41F3122E17B23309443695A4 /* Resources */,
+				373EEF07F4D8BA6B0DB2F75CD1740FA2 /* Headers */,
+				35F8C6837052B4F02755E024DD625200 /* Sources */,
+				DEDCF7F008A5B3CB0BEAEF2569BD7E96 /* Frameworks */,
+				1ACC03ABEFDCC4BF40B8C8AA987674E1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0F34C762C07B35D82E7D1838C2A76667 /* PBXTargetDependency */,
-				8D265F605CAA3098ED56951315ACB3F2 /* PBXTargetDependency */,
+				529334D297D05AFA97E28FB502488F9D /* PBXTargetDependency */,
+				42789CD958D977151530356A75FB6CD9 /* PBXTargetDependency */,
 			);
 			name = Bookbinder;
 			productName = Bookbinder;
@@ -532,12 +529,12 @@
 		};
 		AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB4A32DE0790065AF3C68A9D7FEB3F6D /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildConfigurationList = A0873753BB3240981002847E648DA4EA /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
 			buildPhases = (
-				EC94649CA31CE76BE63F46D89CDE1CA7 /* Headers */,
-				C0F2D13C78B010A6E2AC5C7C4C1FA84A /* Sources */,
-				2FA6C8F7F39624248ED9385ECB1C7AA5 /* Frameworks */,
-				FB052E4A2EB3EE6E273C1EED335FACC4 /* Resources */,
+				03765A5C9BB38D4EC6510179B89394CF /* Headers */,
+				847F658134E3EF84A9685C746C0FF95B /* Sources */,
+				01DFFF8EE524BF8E4B11AAAC53B1639A /* Frameworks */,
+				5FA6D1EA3E84D0842BBC6C8A6F0E5849 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -579,6 +576,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1ACC03ABEFDCC4BF40B8C8AA987674E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		302A265D51FEE684CF9E257D7A1CEFAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,7 +590,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6314835A41F3122E17B23309443695A4 /* Resources */ = {
+		5FA6D1EA3E84D0842BBC6C8A6F0E5849 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -600,14 +604,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		690EDD69506FD5D860B79495CDAE3C39 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB052E4A2EB3EE6E273C1EED335FACC4 /* Resources */ = {
+		7325FE51AA582B5192B9C2603E4CA874 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -625,6 +622,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DD001CBC9B416D7DCDF9D88E68578D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8E975175CC5DCD8A91601498B2CF62 /* CSS.swift in Sources */,
+				3A6D2BFD67B23CC0A59FFA81651B8D22 /* Deprecated.swift in Sources */,
+				E877D836C88A4361272DA79A87FC392D /* Kanna-dummy.m in Sources */,
+				1F22F711745E5F5C70D077F2B0E389F7 /* Kanna.swift in Sources */,
+				B16482C338B58E213DB94CD59FBB3CB4 /* libxmlHTMLDocument.swift in Sources */,
+				6DF6C87958C4D126053279A94D99EB8F /* libxmlHTMLNode.swift in Sources */,
+				94A91FEA7F381840680E962E0FB7B377 /* libxmlParserOption.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25563182B1B42E91176AECDC4EA7656B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -633,62 +644,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AB67CE43FE78FCCBA333BF946A2B62B /* Sources */ = {
+		35F8C6837052B4F02755E024DD625200 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0699A8B5FF3FABEF1960EDA1E678B317 /* Bookbinder-dummy.m in Sources */,
-				929284B09E39872A750D74F2E183483D /* Bookbinder.swift in Sources */,
-				D0094C4AC0E2F3F7D5646BE84928A8F7 /* BookbinderConfiguration.swift in Sources */,
-				5C9293F66A486D47719EA531A6D54ED3 /* ContainerDocument.swift in Sources */,
-				745D1CE91883C1B2157F0F7CB72841FE /* EPUBBook.swift in Sources */,
-				205B0A737254AA12E836E595E86533C9 /* NCXDocument.swift in Sources */,
-				4338C1EC406658CB7A66609505A1F72F /* OPFDocument.swift in Sources */,
-				34E8154192CA761831BA32DDF66252CF /* OPFManifest.swift in Sources */,
-				805F4FB8393C27DAF64CFB25850926EA /* OPFMetadata.swift in Sources */,
-				347D9D3CABF9AADC52B6006A8EDC3BF2 /* OPFPackage.swift in Sources */,
-				33594B227A87CF5556D0508C57CC5DA1 /* OPFSpine.swift in Sources */,
-				99EE63E3F2F7A4E079967596AEFF00D7 /* XParser.swift in Sources */,
+				05C96663580B9DEC73E76CFE8CF941BC /* Bookbinder-dummy.m in Sources */,
+				F607F23FF6B325F4E9439F6371093E89 /* Bookbinder.swift in Sources */,
+				AD23BEB6AFA98DB7F8CFF859F0011BB8 /* BookbinderConfiguration.swift in Sources */,
+				481F185484FF1323B53BE7660E3DCB8A /* ContainerDocument.swift in Sources */,
+				5BAE024F9C996AB6B5A460936282B61E /* EPUBBook.swift in Sources */,
+				8BBE73F33660C32F497938FA8739D51A /* NCXDocument.swift in Sources */,
+				3793E6A6A144B5691529297EDED0D1DB /* OPFDocument.swift in Sources */,
+				1ED43FE1FA26387E6555E80032C9CED0 /* OPFManifest.swift in Sources */,
+				3110DB85B81A0B0931C172C0D84E5952 /* OPFMetadata.swift in Sources */,
+				169C18E2E407EFFDE5FA5D8EE1800327 /* OPFSpine.swift in Sources */,
+				E1CC00F53100C187D54F8417EAC5BB2D /* XParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43895F44126793A3ADAC64EE08EF0C6B /* Sources */ = {
+		847F658134E3EF84A9685C746C0FF95B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F029E9ABFAAC9E8E586258705EBE947 /* CSS.swift in Sources */,
-				B277B445AA2BBCE70EB59B1184424A72 /* Deprecated.swift in Sources */,
-				10A555F0FF73CBD91BBAA07A81F10136 /* Kanna-dummy.m in Sources */,
-				C4E7087A0A99395598B00576849BDDC5 /* Kanna.swift in Sources */,
-				AA104B0D0024D7866A588FA98387576A /* libxmlHTMLDocument.swift in Sources */,
-				2F6C35DBDE5D8EF72685CF75A622D88B /* libxmlHTMLNode.swift in Sources */,
-				50DBE0AA15F21C4EF7411EADA93BBD9A /* libxmlParserOption.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0F2D13C78B010A6E2AC5C7C4C1FA84A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				255CBDE83003C7930DEBF64D6F9C550E /* Archive+Reading.swift in Sources */,
-				696A25E10291C010A641EBF3B5905AD7 /* Archive+Writing.swift in Sources */,
-				F4FEBE8E812391C3C037174FB61E5A11 /* Archive.swift in Sources */,
-				84B0DFEDD8120FE9241F911C3987EF05 /* Data+Compression.swift in Sources */,
-				AFBF8393747E81BE2DEF62942EB02746 /* Data+Serialization.swift in Sources */,
-				32B6E9BB3C88D47F029287F81A359CAB /* Entry.swift in Sources */,
-				1EF98BCB2A51DBC3F3415CBEC809D143 /* FileManager+ZIP.swift in Sources */,
-				F08469395817AD7E33D5E201D4C99014 /* ZIPFoundation-dummy.m in Sources */,
+				A5F994F64946FAFFB5256416BF216D07 /* Archive+Reading.swift in Sources */,
+				F87BCE49AC6951FEBB6CCC04A505E3FD /* Archive+Writing.swift in Sources */,
+				8316FF935B7BE7A8E8CF27B16CA86C2A /* Archive.swift in Sources */,
+				57607BC240F98172C92C4833166825B8 /* Data+Compression.swift in Sources */,
+				8AE9222EF9754D3B7F651328FA66C63F /* Data+Serialization.swift in Sources */,
+				7FC1249DAD2E95DFD0C26F542F4DF8D0 /* Entry.swift in Sources */,
+				0127F74379413C8335DB5ED58FDA7209 /* FileManager+ZIP.swift in Sources */,
+				06C24A8B191AB96C1C0830AE92F672D0 /* ZIPFoundation-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F34C762C07B35D82E7D1838C2A76667 /* PBXTargetDependency */ = {
+		42789CD958D977151530356A75FB6CD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Kanna;
-			target = 93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */;
-			targetProxy = 78A2CC3D192604A0B3DD55E60D54435A /* PBXContainerItemProxy */;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = 283428DC92F3909FDB8B36E247EB328F /* PBXContainerItemProxy */;
 		};
 		4D2119DE72348579840A50388B71275A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -696,17 +692,17 @@
 			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
 			targetProxy = 0838B3CAA14EAAC1253FBBB791A2FFE6 /* PBXContainerItemProxy */;
 		};
+		529334D297D05AFA97E28FB502488F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = 93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */;
+			targetProxy = 6703877C9C11077BA3438454D273893F /* PBXContainerItemProxy */;
+		};
 		7DA4832F59E4CA74DB28DB9219366D75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kanna;
 			target = 93AC747EDE1EE56F89BBF405C1D67027 /* Kanna */;
 			targetProxy = 669D37FF79CF70B87BF4E0DCAD102ED7 /* PBXContainerItemProxy */;
-		};
-		8D265F605CAA3098ED56951315ACB3F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZIPFoundation;
-			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
-			targetProxy = 734E7792CECC52720DF5028C1EC4256F /* PBXContainerItemProxy */;
 		};
 		B1F3AB44E34B36BE9497A1508DCE51E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -825,9 +821,9 @@
 			};
 			name = Debug;
 		};
-		204C92F9C382EFE5551AA061C9D85654 /* Debug */ = {
+		2DEF84B9D04546D51DCAD0B2AC534F80 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */;
+			baseConfigurationReference = E9E73B5DB0150BB15546EBC1B1C62E31 /* Bookbinder.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -861,9 +857,9 @@
 			};
 			name = Debug;
 		};
-		35E13CB12D3D8C83C879F7B3AF69EDDC /* Debug */ = {
+		380DFF08AA58AB3735EA592E0B59791C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */;
+			baseConfigurationReference = F78A2F90577D5685B88CADC6F0B757EE /* Kanna.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -896,9 +892,9 @@
 			};
 			name = Debug;
 		};
-		3EC666D96042A80C08E8E09D0CF4B996 /* Release */ = {
+		3B820B2B1100F2158B65638008E386F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C8F9739DFCED19791E87A48A78FE901 /* Kanna.xcconfig */;
+			baseConfigurationReference = F1AA57DA4E4A3603664382CDB06B7239 /* ZIPFoundation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -909,28 +905,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
-				PRODUCT_MODULE_NAME = Kanna;
-				PRODUCT_NAME = Kanna;
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		419EE2542A0A254C71DC0DED2496D3A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -969,42 +964,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		453C4ABD35678F212E3784863E1A04C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
-				PRODUCT_MODULE_NAME = ZIPFoundation;
-				PRODUCT_NAME = ZIPFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		6A63F204D3451584E669635E3170DEED /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1084,9 +1043,9 @@
 			};
 			name = Release;
 		};
-		8D52615BE3B532659173EA0472EDA7CC /* Debug */ = {
+		95193655197892887B786E44F0E2CCBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB4C50D4A30D5BD904B22FF421132E61 /* ZIPFoundation.xcconfig */;
+			baseConfigurationReference = F78A2F90577D5685B88CADC6F0B757EE /* Kanna.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1097,54 +1056,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Kanna-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
-				PRODUCT_MODULE_NAME = ZIPFoundation;
-				PRODUCT_NAME = ZIPFoundation;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8FF22BE9D5568E40FDC4D692DB6C7B2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DCBE8FEA549DF5AE96A04B3924CA405 /* Bookbinder.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Bookbinder/Bookbinder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Bookbinder/Bookbinder-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Bookbinder/Bookbinder.modulemap";
-				PRODUCT_MODULE_NAME = Bookbinder;
-				PRODUCT_NAME = Bookbinder;
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				PRODUCT_MODULE_NAME = Kanna;
+				PRODUCT_NAME = Kanna;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1216,23 +1139,105 @@
 			};
 			name = Release;
 		};
+		B9637CDBB946AA3ABEBFBBCBBED5B9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E73B5DB0150BB15546EBC1B1C62E31 /* Bookbinder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bookbinder/Bookbinder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bookbinder/Bookbinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Bookbinder/Bookbinder.modulemap";
+				PRODUCT_MODULE_NAME = Bookbinder;
+				PRODUCT_NAME = Bookbinder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE9295AE51C128543977B2C778E3F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AA57DA4E4A3603664382CDB06B7239 /* ZIPFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00BB7FD00F569FDD445E7AF254B7962E /* Build configuration list for PBXNativeTarget "Bookbinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEF84B9D04546D51DCAD0B2AC534F80 /* Debug */,
+				B9637CDBB946AA3ABEBFBBCBBED5B9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468C13AF6A72AAF6218590B1B80450D1 /* Build configuration list for PBXNativeTarget "Kanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380DFF08AA58AB3735EA592E0B59791C /* Debug */,
+				95193655197892887B786E44F0E2CCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				196DFA3E4A09A28224918543529A1885 /* Debug */,
 				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		717316F5D5C421C75187D350B998734F /* Build configuration list for PBXNativeTarget "Bookbinder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				204C92F9C382EFE5551AA061C9D85654 /* Debug */,
-				8FF22BE9D5568E40FDC4D692DB6C7B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1246,11 +1251,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB4A32DE0790065AF3C68A9D7FEB3F6D /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
+		A0873753BB3240981002847E648DA4EA /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D52615BE3B532659173EA0472EDA7CC /* Debug */,
-				453C4ABD35678F212E3784863E1A04C7 /* Release */,
+				3B820B2B1100F2158B65638008E386F0 /* Debug */,
+				EE9295AE51C128543977B2C778E3F975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1260,15 +1265,6 @@
 			buildConfigurations = (
 				027BF6C29F52E6324991479F512D7692 /* Debug */,
 				77DC5B3C7B184FEFC633B609C8879F14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0F00E9B9754DBB04BB5B42BC868430D /* Build configuration list for PBXNativeTarget "Kanna" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35E13CB12D3D8C83C879F7B3AF69EDDC /* Debug */,
-				3EC666D96042A80C08E8E09D0CF4B996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
