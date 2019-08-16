@@ -23,12 +23,12 @@ struct GuideRef {
 }
 
 class CustomBook: EPUBBook {
-    lazy var firstAuthors: [String]? = {
-        return opf.package?.metadata?.creators
+    lazy var firstAuthors: [String] = {
+        return opf.metadata.creators
     }()
     
-    lazy var secondAuthors: [String]? = {
-        return opf.package?.metadata?.contributors
+    lazy var secondAuthors: [String] = {
+        return opf.metadata.contributors
     }()
     
     // http://www.idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         }
         let bookbinder = Bookbinder()
         let ebook = bookbinder.bindBook(at: url, to: CustomBook.self)
-        print(ebook?.firstAuthors?.first ?? "None")
+        print(ebook?.firstAuthors.first ?? "None")
         print(ebook?.guideRefs.first?.title ?? "None")
     }
 
